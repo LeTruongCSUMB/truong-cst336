@@ -1,0 +1,22 @@
+img {
+    margin:200px;
+}
+
+.highlighted {
+    background-color: yellow;
+}
+
+body #first {
+    background-color: slateblue;
+    color: lightblue;
+}
+
+.highlighted {
+    background-color: green;
+    color: yellow;
+}
+
+#first {
+    background-color: pink;
+    color: red;
+}

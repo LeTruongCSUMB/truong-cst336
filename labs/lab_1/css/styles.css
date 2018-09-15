@@ -1,0 +1,75 @@
+body {
+    background-color:darkslateblue;
+    color:lightblue;
+}
+
+header, nav, footer {
+    text-align: center;
+}
+main {
+    text-align: left;
+}
+
+nav a { /*links within "nav" container */
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: white;          /* by default, links are blue */
+}
+
+nav a:hover { /*pseudo class */
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s; /* transition effect */
+}
+
+a strong{
+    color: khaki;
+}
+
+#me, #welcomeText {
+    float: left;
+}
+
+footer {
+    font-size: 0.8em;
+    color:gray;
+    clear: left;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color:khaki;
+}
+
+#table-header {
+    background-color:indigo;
+}
+
+.table-row {
+    background-color:indigo;
+}
+
+ul {
+    text-align:left;
+    padding-left: 140px;
+}
+
+.hobby {
+    color:khaki;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
