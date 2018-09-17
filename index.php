@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
+        <title>Lewis Truong's Index</title>
     </head>
     <body>
-
+        <a href="http://truong-cst336.herokuapp.com/labs/lab_1/">Lab 1</a>
+        <a href="http://truong-cst336.herokuapp.com/labs/lab_2/">Lab 2</a>
+        <a href="http://truong-cst336.herokuapp.com/homework/hw1/">Homework 1</a>
     </body>
 </html>
