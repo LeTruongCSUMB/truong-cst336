@@ -13,4 +13,14 @@ foreach ($weekdays as $day) {
 	echo "<br><br> $day";
 } 
 
+/*foreach ($card as $ key + $value){
+    echo $value
+}
+
+$deck = array("numCards" = 52, "cards" = array());
+
+$deck["cards"][] = array();
+$deck["cards"][0]["suit"] = "clubs";
+*/
+
 ?>
