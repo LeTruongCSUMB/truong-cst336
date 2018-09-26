@@ -25,7 +25,9 @@ footer {
     font-size: 0.9em;
 }
 body {
-        background-image: url(/ws/homework/hw2/img/bg.gif);
+        background-image: url(https://wallpapercave.com/wp/wp2757874.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 hr {
      background-color: #34495E;
