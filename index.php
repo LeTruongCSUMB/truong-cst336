@@ -12,5 +12,6 @@
         
         <p>Homework</p>
         <p><a href="http://truong-cst336.herokuapp.com/homework/hw1/">Homework 1</a></p>
+        <p><a href="http://truong-cst336.herokuapp.com/homework/hw2/">Homework 2</a></p>
     </body>
 </html>
