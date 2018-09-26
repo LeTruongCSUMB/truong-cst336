@@ -32,9 +32,8 @@
                     if ($ratings < 20) {
                         echo "<img width='15' src='img/star.png'>";
                         echo "<br>";
-                        $nq = rand(0,count($negQuotes)-1);
+                        $nq=array_rand($negQuotes,1);
                         echo "<i>$negQuotes[$nq]</i>";
-                        //echo "<br>";
                         unset($negQuotes[$nq]);
                         $negQuotes = array_values($negQuotes);
                         break;
@@ -65,9 +64,9 @@
                             echo "<img width='15' src='img/star.png'>";
                         }
                         echo "<br>";
-                        $pq = rand(0,count($posQuotes)-1);
+                        
+                        $pq=array_rand($posQuotes,1);
                         echo "<i>$posQuotes[$pq]</i>";
-                        //echo "<br>";
                         unset($posQuotes[$pq]);
                         $posQuotes = array_values($posQuotes);
                         break;
