@@ -1,0 +1,65 @@
+h1 {
+    position: fixed;
+    bottom: 365px;
+    right: 980px;
+    width: 300px;
+    font-family: Okuda, sans-serif;
+    color: #FF9900;
+    font-size: 50px;
+}
+h2 {
+    position: fixed;
+    bottom: 357px;
+    right: 880px;
+    width: 300px;
+    font-family: Okuda, sans-serif;
+    color: #CCDDFF;
+    font-size: 50px;
+}
+
+body {
+    font-family: Okuda, sans-serif;
+    background-image: url(http://www.lcars.org.uk/lcars_files/lcars3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    bottom: 10px;
+    right: 800px;
+    width: 300px;
+    left: 240px;
+    color: #CCDDFF;
+    font-size: 20px;
+}
+
+input[type=text] {
+    width: 75%;
+    padding: 3px 3px;
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: 2px solid #882211;
+    background-color: #2357;
+    border-radius: 4px;
+    color: #CCDDFF;
+}
+.division {
+    text-align: center;
+}
+.rank {
+    text-align: center;
+    color: #FF9933;
+}
+select option {
+    background: #2379; 
+    color: black;
+    text-shadow:#006699;
+}
+.button {
+    background-color: #9999CC;
+    color: 2357;
+    border-radius: 50px;
+    background: #9999CC;
+    padding: 10px; 
+    width: 100px;
+    height: 10px;
+    font-size: 10px;
+}

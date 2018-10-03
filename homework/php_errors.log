@@ -1,153 +1,27 @@
-[25-Sep-2018 06:33:32 UTC] PHP Fatal error:  Cannot redeclare gameReview() (previously declared in /home/ubuntu/workspace/ws/homework/hw2/index.php:6) in /home/ubuntu/workspace/ws/homework/hw2/index.php on line 6
-[25-Sep-2018 06:33:32 UTC] PHP Stack trace:
-[25-Sep-2018 06:33:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:42:07 UTC] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ws/homework/hw2/index.php on line 13
-[25-Sep-2018 06:42:08 UTC] PHP Stack trace:
-[25-Sep-2018 06:42:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:42:08 UTC] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ws/homework/hw2/index.php on line 13
-[25-Sep-2018 06:42:08 UTC] PHP Stack trace:
-[25-Sep-2018 06:42:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:42:08 UTC] PHP Fatal error:  Call to undefined function gameReview() in /home/ubuntu/workspace/ws/homework/hw2/index.php on line 14
-[25-Sep-2018 06:42:08 UTC] PHP Stack trace:
-[25-Sep-2018 06:42:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:43:14 UTC] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ws/homework/hw2/index.php on line 13
-[25-Sep-2018 06:43:14 UTC] PHP Stack trace:
-[25-Sep-2018 06:43:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:43:14 UTC] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ws/homework/hw2/index.php on line 13
-[25-Sep-2018 06:43:14 UTC] PHP Stack trace:
-[25-Sep-2018 06:43:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:43:14 UTC] PHP Fatal error:  Call to undefined function gameReview() in /home/ubuntu/workspace/ws/homework/hw2/index.php on line 14
-[25-Sep-2018 06:43:14 UTC] PHP Stack trace:
-[25-Sep-2018 06:43:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:44:26 UTC] PHP Fatal error:  Cannot redeclare gameReview() (previously declared in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:6) in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 6
-[25-Sep-2018 06:44:26 UTC] PHP Stack trace:
-[25-Sep-2018 06:44:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:44:26 UTC] PHP   2. include() /home/ubuntu/workspace/ws/homework/hw2/index.php:3
-[25-Sep-2018 06:45:42 UTC] PHP Fatal error:  Cannot redeclare gameReview() (previously declared in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:6) in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 6
-[25-Sep-2018 06:45:42 UTC] PHP Stack trace:
-[25-Sep-2018 06:45:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:45:42 UTC] PHP   2. include() /home/ubuntu/workspace/ws/homework/hw2/index.php:3
-[25-Sep-2018 06:45:44 UTC] PHP Fatal error:  Cannot redeclare gameReview() (previously declared in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:6) in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 6
-[25-Sep-2018 06:45:44 UTC] PHP Stack trace:
-[25-Sep-2018 06:45:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:45:44 UTC] PHP   2. include() /home/ubuntu/workspace/ws/homework/hw2/index.php:3
-[25-Sep-2018 06:46:27 UTC] PHP Fatal error:  Cannot redeclare gameReview() (previously declared in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:6) in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 6
-[25-Sep-2018 06:46:27 UTC] PHP Stack trace:
-[25-Sep-2018 06:46:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:46:27 UTC] PHP   2. include() /home/ubuntu/workspace/ws/homework/hw2/index.php:3
-[25-Sep-2018 06:47:57 UTC] PHP Fatal error:  Cannot redeclare gameReview() (previously declared in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:6) in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 6
-[25-Sep-2018 06:47:57 UTC] PHP Stack trace:
-[25-Sep-2018 06:47:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:47:57 UTC] PHP   2. include() /home/ubuntu/workspace/ws/homework/hw2/index.php:3
-[25-Sep-2018 06:50:58 UTC] PHP Fatal error:  Cannot redeclare gameReview() (previously declared in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:6) in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 6
-[25-Sep-2018 06:50:58 UTC] PHP Stack trace:
-[25-Sep-2018 06:50:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:50:58 UTC] PHP   2. include() /home/ubuntu/workspace/ws/homework/hw2/index.php:3
-[25-Sep-2018 06:57:20 UTC] PHP Warning:  Missing argument 1 for displayRatings(), called in /home/ubuntu/workspace/ws/homework/hw2/index.php on line 15 and defined in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 24
-[25-Sep-2018 06:57:20 UTC] PHP Stack trace:
-[25-Sep-2018 06:57:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:57:20 UTC] PHP   2. displayRatings() /home/ubuntu/workspace/ws/homework/hw2/index.php:15
-[25-Sep-2018 06:57:20 UTC] PHP Warning:  Missing argument 2 for displayRatings(), called in /home/ubuntu/workspace/ws/homework/hw2/index.php on line 15 and defined in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 24
-[25-Sep-2018 06:57:20 UTC] PHP Stack trace:
-[25-Sep-2018 06:57:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:57:20 UTC] PHP   2. displayRatings() /home/ubuntu/workspace/ws/homework/hw2/index.php:15
-[25-Sep-2018 06:57:20 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 32
-[25-Sep-2018 06:57:20 UTC] PHP Stack trace:
-[25-Sep-2018 06:57:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:57:20 UTC] PHP   2. displayRatings() /home/ubuntu/workspace/ws/homework/hw2/index.php:15
-[25-Sep-2018 06:57:20 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, null given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 35
-[25-Sep-2018 06:57:20 UTC] PHP Stack trace:
-[25-Sep-2018 06:57:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:57:20 UTC] PHP   2. displayRatings() /home/ubuntu/workspace/ws/homework/hw2/index.php:15
-[25-Sep-2018 06:57:20 UTC] PHP   3. array_reverse() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:35
-[25-Sep-2018 06:57:20 UTC] PHP Fatal error:  Call to undefined function bar_graph() in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 36
-[25-Sep-2018 06:57:20 UTC] PHP Stack trace:
-[25-Sep-2018 06:57:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:57:20 UTC] PHP   2. displayRatings() /home/ubuntu/workspace/ws/homework/hw2/index.php:15
-[25-Sep-2018 06:58:37 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 35
-[25-Sep-2018 06:58:37 UTC] PHP Stack trace:
-[25-Sep-2018 06:58:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:58:37 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:14
-[25-Sep-2018 06:58:37 UTC] PHP   3. displayRatings() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:19
-[25-Sep-2018 06:58:37 UTC] PHP   4. array_reverse() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:35
-[25-Sep-2018 06:58:37 UTC] PHP Fatal error:  Call to undefined function bar_graph() in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 36
-[25-Sep-2018 06:58:37 UTC] PHP Stack trace:
-[25-Sep-2018 06:58:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 06:58:37 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:14
-[25-Sep-2018 06:58:37 UTC] PHP   3. displayRatings() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:19
-[25-Sep-2018 08:14:18 UTC] PHP Warning:  ucwords() expects exactly 1 parameter, 3 given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 10
-[25-Sep-2018 08:14:18 UTC] PHP Stack trace:
-[25-Sep-2018 08:14:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 08:14:18 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:16
-[25-Sep-2018 08:14:18 UTC] PHP   3. ucwords() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:10
-[25-Sep-2018 08:14:18 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 10
-[25-Sep-2018 08:14:18 UTC] PHP Stack trace:
-[25-Sep-2018 08:14:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 08:14:18 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:16
-[25-Sep-2018 08:14:18 UTC] PHP   3. str_replace() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:10
-[25-Sep-2018 08:14:18 UTC] PHP Warning:  ucwords() expects exactly 1 parameter, 3 given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 10
-[25-Sep-2018 08:14:18 UTC] PHP Stack trace:
-[25-Sep-2018 08:14:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 08:14:18 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:16
-[25-Sep-2018 08:14:18 UTC] PHP   3. ucwords() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:10
-[25-Sep-2018 08:14:18 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 10
-[25-Sep-2018 08:14:18 UTC] PHP Stack trace:
-[25-Sep-2018 08:14:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 08:14:18 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:16
-[25-Sep-2018 08:14:18 UTC] PHP   3. str_replace() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:10
-[25-Sep-2018 08:14:18 UTC] PHP Warning:  ucwords() expects exactly 1 parameter, 3 given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 10
-[25-Sep-2018 08:14:18 UTC] PHP Stack trace:
-[25-Sep-2018 08:14:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 08:14:18 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:16
-[25-Sep-2018 08:14:18 UTC] PHP   3. ucwords() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:10
-[25-Sep-2018 08:14:18 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 10
-[25-Sep-2018 08:14:18 UTC] PHP Stack trace:
-[25-Sep-2018 08:14:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 08:14:18 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:16
-[25-Sep-2018 08:14:18 UTC] PHP   3. str_replace() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:10
-[25-Sep-2018 08:14:18 UTC] PHP Warning:  ucwords() expects exactly 1 parameter, 3 given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 10
-[25-Sep-2018 08:14:18 UTC] PHP Stack trace:
-[25-Sep-2018 08:14:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 08:14:18 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:16
-[25-Sep-2018 08:14:18 UTC] PHP   3. ucwords() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:10
-[25-Sep-2018 08:14:18 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 10
-[25-Sep-2018 08:14:18 UTC] PHP Stack trace:
-[25-Sep-2018 08:14:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 08:14:18 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:16
-[25-Sep-2018 08:14:18 UTC] PHP   3. str_replace() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:10
-[25-Sep-2018 08:22:22 UTC] PHP Parse error:  syntax error, unexpected '$ratings' (T_VARIABLE), expecting '(' in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 38
-[25-Sep-2018 08:22:22 UTC] PHP Stack trace:
-[25-Sep-2018 08:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 08:43:12 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 32
-[25-Sep-2018 08:43:12 UTC] PHP Stack trace:
-[25-Sep-2018 08:43:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 08:43:12 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:16
-[25-Sep-2018 08:43:12 UTC] PHP   3. shuffle() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:32
-[25-Sep-2018 08:43:12 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 60
-[25-Sep-2018 08:43:12 UTC] PHP Stack trace:
-[25-Sep-2018 08:43:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[25-Sep-2018 08:43:12 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:16
-[25-Sep-2018 08:43:12 UTC] PHP   3. shuffle() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:60
-[26-Sep-2018 19:13:28 UTC] PHP Warning:  array_values() expects parameter 1 to be array, string given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 69
-[26-Sep-2018 19:13:28 UTC] PHP Stack trace:
-[26-Sep-2018 19:13:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[26-Sep-2018 19:13:28 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:22
-[26-Sep-2018 19:13:28 UTC] PHP   3. array_values() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:69
-[26-Sep-2018 19:13:28 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 69
-[26-Sep-2018 19:13:28 UTC] PHP Stack trace:
-[26-Sep-2018 19:13:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[26-Sep-2018 19:13:28 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:22
-[26-Sep-2018 19:13:28 UTC] PHP   3. array_values() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:69
-[26-Sep-2018 19:13:28 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 69
-[26-Sep-2018 19:13:28 UTC] PHP Stack trace:
-[26-Sep-2018 19:13:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[26-Sep-2018 19:13:28 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:22
-[26-Sep-2018 19:13:28 UTC] PHP   3. array_values() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:69
-[26-Sep-2018 19:13:28 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 69
-[26-Sep-2018 19:13:28 UTC] PHP Stack trace:
-[26-Sep-2018 19:13:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
-[26-Sep-2018 19:13:28 UTC] PHP   2. gameReview() /home/ubuntu/workspace/ws/homework/hw2/index.php:22
-[26-Sep-2018 19:13:28 UTC] PHP   3. array_values() /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php:69
-[26-Sep-2018 21:01:07 UTC] PHP Parse error:  syntax error, unexpected '$randomCover' (T_VARIABLE) in /home/ubuntu/workspace/ws/homework/hw2/inc/functions.php on line 12
-[26-Sep-2018 21:01:07 UTC] PHP Stack trace:
-[26-Sep-2018 21:01:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw2/index.php:0
+[02-Oct-2018 05:59:17 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/ws/homework/hw3/save.php on line 17
+[02-Oct-2018 05:59:17 UTC] PHP Stack trace:
+[02-Oct-2018 05:59:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw3/save.php:0
+[02-Oct-2018 06:08:19 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/ws/homework/hw3/save.php on line 22
+[02-Oct-2018 06:08:19 UTC] PHP Stack trace:
+[02-Oct-2018 06:08:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw3/save.php:0
+[02-Oct-2018 06:09:51 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/ws/homework/hw3/save.php on line 22
+[02-Oct-2018 06:09:51 UTC] PHP Stack trace:
+[02-Oct-2018 06:09:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw3/save.php:0
+[02-Oct-2018 06:22:51 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/ws/homework/hw3/save.php on line 18
+[02-Oct-2018 06:22:51 UTC] PHP Stack trace:
+[02-Oct-2018 06:22:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw3/save.php:0
+[02-Oct-2018 06:23:51 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/ws/homework/hw3/save.php on line 18
+[02-Oct-2018 06:23:51 UTC] PHP Stack trace:
+[02-Oct-2018 06:23:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw3/save.php:0
+[02-Oct-2018 06:23:53 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/ws/homework/hw3/save.php on line 18
+[02-Oct-2018 06:23:53 UTC] PHP Stack trace:
+[02-Oct-2018 06:23:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw3/save.php:0
+[02-Oct-2018 06:24:05 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/ws/homework/hw3/save.php on line 18
+[02-Oct-2018 06:24:05 UTC] PHP Stack trace:
+[02-Oct-2018 06:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw3/save.php:0
+[02-Oct-2018 06:37:38 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/ws/homework/hw3/save.php on line 20
+[02-Oct-2018 06:37:38 UTC] PHP Stack trace:
+[02-Oct-2018 06:37:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw3/save.php:0
+[02-Oct-2018 06:41:31 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/ws/homework/hw3/save.php on line 19
+[02-Oct-2018 06:41:31 UTC] PHP Stack trace:
+[02-Oct-2018 06:41:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/homework/hw3/save.php:0
