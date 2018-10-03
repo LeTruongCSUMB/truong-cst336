@@ -57,7 +57,7 @@
                             $randomIndex = rand(0, count($imageURLs));
                         } while (!isset($imageURLs[$randomIndex]));
 
-                        echo '<div class="carousel-item ';
+                        echo '<div class="item ';
                         echo ($i == 0)? "active" : "";
                         echo '">';
                         echo '<img src="' . $imageURLs[$randomIndex] . '">';
