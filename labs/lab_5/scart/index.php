@@ -7,6 +7,11 @@
         $_SESSION['cart'] = array();
     }
     
+    //check to see if an item has been added to the cart
+    if(isset($_POST['itemName'])) {
+        array_push($_SESSION['cart'], $_POST['itemName']);
+    }
+    
     if (isset($_GET['query'])) {
         //Get access to our API function
         include 'wmapi.php';

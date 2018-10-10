@@ -1,0 +1,479 @@
+[10-Oct-2018 18:51:31 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/index.php on line 34
+[10-Oct-2018 18:51:31 UTC] PHP Stack trace:
+[10-Oct-2018 18:51:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/index.php:0
+[10-Oct-2018 18:51:33 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/index.php on line 34
+[10-Oct-2018 18:51:33 UTC] PHP Stack trace:
+[10-Oct-2018 18:51:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/index.php:0
+[10-Oct-2018 18:51:33 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/index.php on line 34
+[10-Oct-2018 18:51:33 UTC] PHP Stack trace:
+[10-Oct-2018 18:51:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/index.php:0
+[10-Oct-2018 18:52:56 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 9
+[10-Oct-2018 18:52:56 UTC] PHP Stack trace:
+[10-Oct-2018 18:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:52:56 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:52:56 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 10
+[10-Oct-2018 18:52:56 UTC] PHP Stack trace:
+[10-Oct-2018 18:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:52:56 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:52:56 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 15
+[10-Oct-2018 18:52:56 UTC] PHP Stack trace:
+[10-Oct-2018 18:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:52:56 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:52:56 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 16
+[10-Oct-2018 18:52:56 UTC] PHP Stack trace:
+[10-Oct-2018 18:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:52:56 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:52:56 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 17
+[10-Oct-2018 18:52:56 UTC] PHP Stack trace:
+[10-Oct-2018 18:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:52:56 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:52:56 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 9
+[10-Oct-2018 18:52:56 UTC] PHP Stack trace:
+[10-Oct-2018 18:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:52:56 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:52:56 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 10
+[10-Oct-2018 18:52:56 UTC] PHP Stack trace:
+[10-Oct-2018 18:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:52:56 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:52:56 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 15
+[10-Oct-2018 18:52:56 UTC] PHP Stack trace:
+[10-Oct-2018 18:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:52:56 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:52:56 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 16
+[10-Oct-2018 18:52:56 UTC] PHP Stack trace:
+[10-Oct-2018 18:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:52:56 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:52:56 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 17
+[10-Oct-2018 18:52:56 UTC] PHP Stack trace:
+[10-Oct-2018 18:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:52:56 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 9
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 10
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 11
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 12
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 13
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 18
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 19
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 20
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 9
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 10
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 11
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 12
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 13
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 18
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 19
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:50 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 20
+[10-Oct-2018 18:55:50 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 9
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 10
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 11
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 12
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 13
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 18
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 19
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 20
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 9
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 10
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 11
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 12
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 13
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 18
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 19
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:55:57 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 20
+[10-Oct-2018 18:55:57 UTC] PHP Stack trace:
+[10-Oct-2018 18:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:55:57 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 9
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 10
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 11
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 12
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 13
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 18
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 19
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 20
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 9
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 10
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 11
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 12
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 13
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 18
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 19
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:00 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 20
+[10-Oct-2018 18:56:00 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:00 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 9
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 10
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 11
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 12
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 13
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 18
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 19
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 20
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 9
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 10
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 11
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 12
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 13
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 18
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 19
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:02 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 20
+[10-Oct-2018 18:56:02 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:02 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 9
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 10
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 11
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 12
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 13
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 18
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 19
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 20
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 9
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 10
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 11
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 12
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 13
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 18
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 19
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:24 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 20
+[10-Oct-2018 18:56:24 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:24 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php on line 17
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php on line 17
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 9
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 10
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 11
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 12
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 13
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 18
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 19
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 20
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 9
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 10
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 11
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 12
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 13
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 18
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 19
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:56:28 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 20
+[10-Oct-2018 18:56:28 UTC] PHP Stack trace:
+[10-Oct-2018 18:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:56:28 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:57:05 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 12
+[10-Oct-2018 18:57:05 UTC] PHP Stack trace:
+[10-Oct-2018 18:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:57:05 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:57:05 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 13
+[10-Oct-2018 18:57:05 UTC] PHP Stack trace:
+[10-Oct-2018 18:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:57:05 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:57:05 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 18
+[10-Oct-2018 18:57:05 UTC] PHP Stack trace:
+[10-Oct-2018 18:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:57:05 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:57:05 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 19
+[10-Oct-2018 18:57:05 UTC] PHP Stack trace:
+[10-Oct-2018 18:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:57:05 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:57:05 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 20
+[10-Oct-2018 18:57:05 UTC] PHP Stack trace:
+[10-Oct-2018 18:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:57:05 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:57:05 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 12
+[10-Oct-2018 18:57:05 UTC] PHP Stack trace:
+[10-Oct-2018 18:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:57:05 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:57:05 UTC] PHP Warning:  Illegal string offset 'quantity' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 13
+[10-Oct-2018 18:57:05 UTC] PHP Stack trace:
+[10-Oct-2018 18:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:57:05 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:57:05 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 18
+[10-Oct-2018 18:57:05 UTC] PHP Stack trace:
+[10-Oct-2018 18:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:57:05 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:57:05 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 19
+[10-Oct-2018 18:57:05 UTC] PHP Stack trace:
+[10-Oct-2018 18:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:57:05 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58
+[10-Oct-2018 18:57:05 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/ws/labs/lab_5/scart/functions.php on line 20
+[10-Oct-2018 18:57:05 UTC] PHP Stack trace:
+[10-Oct-2018 18:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:0
+[10-Oct-2018 18:57:05 UTC] PHP   2. displayCart() /home/ubuntu/workspace/ws/labs/lab_5/scart/scart.php:58

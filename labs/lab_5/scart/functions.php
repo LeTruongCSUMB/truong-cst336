@@ -6,6 +6,9 @@ function displayCart() {
         
         echo "<table class='table'>";
         foreach ($_SESSION['cart'] as $item) {
+            //$itemName = $item['name'];
+            //$itemPrice = $item['price'];
+            //$itemImage = $item['image'];
             $itemId = $item['id'];
             $itemQuant = $item['quantity'];
             
