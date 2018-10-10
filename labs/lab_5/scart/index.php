@@ -8,9 +8,9 @@
     }
     
     //check to see if an item has been added to the cart
-    if(isset($_POST['itemName'])) {
-        array_push($_SESSION['cart'], $_POST['itemName']);
-    }
+    //if(isset($_POST['itemName'])) {
+        //array_push($_SESSION['cart'], $_POST['itemName']);
+    //}
     
     if (isset($_GET['query'])) {
         //Get access to our API function
@@ -22,13 +22,14 @@
     if(isset($_POST['itemName'])) {
         //creating an array to hold an item's properties
         $newItem = array();
-        $newItem['name'] = $POST['itemName'];
-        $newItem['price'] = $POST['itemPrice'];
-        $newItem['img'] = $POST['itemImg'];
-        $newItem['id'] = $POST['itemId'];
+        $newItem['name'] = $_POST['itemName'];
+        $newItem['price'] = $_POST['itemPrice'];
+        $newItem['image'] = $_POST['itemImage'];
+        $newItem['id'] = $_POST['itemId'];
+        $newItem['quantity'] = $_POST['quantity'];
         
         //checks to see if the item are in the array
-        //if so the item isn't new and updates quanity
+        //if so the item isn't new and updates quantity
         //must be passed by reference so item can be updated
         foreach($_SESSION['cart'] as &$item){
             if($newItem['id'] == $item['id']) {
@@ -38,7 +39,7 @@
         }
         //else add it to array
         if($found != true) {
-            $newItem['quanity'] = 1;
+            $newItem['quantity'] = 1;
             array_push($_SESSION['cart'], $newItem);
         }
     }
