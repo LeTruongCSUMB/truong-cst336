@@ -7,28 +7,63 @@
             @font-face { 
                 font-family: Okuda; src: url('Okuda.otf');
             }
+            h1 {
+                color: #CCDDFF;
+            }
+            span{
+                color: #FF9900;
+            }
         </style>
+            <div style="font-size:5vw;">
+                <h1><span>WELCOME </span><?php echo $_POST['rank'] ." ".  $_POST['name']; ?></h1>
+            </div>
     </head>
     <body>
         
         <div style="color: #CCDDFF">
             <form action="index.php" method="POST">
-                <button class="button">Return to Login</button>
-            </form>
-            <?php
-            
-                echo '<p>$_POST: ';
-                echo '<pre>';
-                var_dump($_POST);
-                echo '</pre>';
-                echo "</p>";
+                <br>
+                <div style="color: #4455BB">
+                    Name: <input type="text" name="name" placeholder="Full name here" value="<?=$_POST['name']?>" size="25" />
+                </div>
+                <br>
+                <div style="color: #CC6699; font-size:2vw;">
+                    Division:
+                    <select name="division">
+                        <option <?php if ($_POST['division'] == "Command") echo "Selected = 'selected'";?>>Command</option>
+                        <option <?php if ($_POST['division'] == "Science") echo "Selected = 'selected'";?>>Science</option>
+                        <option<?php if ($_POST['division'] == "Operations") echo "Selected = 'selected'";?>>Operations</option>
+                    </select>
+                </div>
+                <br>
+                <div style="color: #FFCC66; font-size:2vw;">
+                    Rank:
+                    <br>
+                        <input type="radio" name="rank" value="Enlisted" <?php if ($_POST['rank'] == "Enlisted") echo "Checked = 'checked'";?>>
+                            <label for="item0">Enlisted</label> <br>
                 
-                echo '<p>$_GET: ';
-                echo '<pre>';
-                var_dump($_GET);
-                echo '</pre>';
-                echo "</p>";
-            ?>
+                        <input type="radio" name="rank" value="Ensign" <?php if ($_POST['rank'] == "Ensign") echo "Checked = 'checked'";?>>
+                            <label for="item1">Ensign</label> <br>
+                    
+                        <input type="radio" name="rank" value="Lieutenant Junior" <?php if ($_POST['rank'] == "Lieutenant Junior") echo "Checked = 'checked'";?>>
+                            <label for="item1">Lieutenant Junior</label> <br>
+                            
+                        <input type="radio" name="rank" value="Lieutenant" <?php if ($_POST['rank'] == "Lieutenant") echo "Checked = 'checked'";?>>
+                            <label for="item1">Lieutenant</label> <br>
+                            
+                        <input type="radio" name="rank" value="Lieutenant Commander" <?php if ($_POST['rank'] == "Lieutenant Commander") echo "Checked = 'checked'";?>>
+                            <label for="item1">Lieutenant Commander</label> <br>
+                            
+                        <input type="radio" name="rank" value="Commander" <?php if ($_POST['rank'] == "Commander") echo "Checked = 'checked'";?>>
+                            <label for="item1">Commander</label> <br>
+                            
+                        <input type="radio" name="rank" value="Captain" <?php if ($_POST['rank'] == "Captain") echo "Checked = 'checked'";?>>
+                            <label for="item1">Captain</label> <br>
+                        </div>
+                
+                    <br>
+                    <button class="button">Return to Login</button>
+            </form>
         </div>
     </body>
 </html>
