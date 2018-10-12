@@ -19,10 +19,11 @@ body {
     background-repeat: repeat;
     background-size: contain;
     background-size: cover;
-    max-width:100%;
-    min-width:800px;
-    max-height:500px;
-    min-height:21%;
+    position: relative;
+    left: 15%;
+    right: 40%;
+    top: 200%;
+    bottom: 80%;
     padding: 0;
     color: #CCDDFF;
     font-size: 20px;

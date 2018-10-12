@@ -15,14 +15,21 @@
             }
         </style>
             <div style="font-size:5vw;">
-                <h1><span>WELCOME </span><?php echo $_POST['rank'] ." ".  $_POST['name']; ?></h1>
+                <h1><span>WELCOME </span><br><br><?php 
+                if($_POST['division'] == "Command"){
+                    echo "<div style='color:#a71313'>";
+                }else if ($_POST['division'] == "Science"){
+                   echo "<div style='color:#2b53a7'>";
+                }else if ($_POST['division'] == "Operations"){
+                    echo "<div style='color:#c1c730'>";
+                }
+                echo $_POST['rank'] ." ".  $_POST['name']; ?></h1>
             </div>
     </head>
     <body>
         
         <div style="color: #CCDDFF">
             <form action="index.php" method="POST">
-                <br>
                 <div style="color: #4455BB">
                     Name: <input type="text" name="name" placeholder="Full name here" value="<?=$_POST['name']?>" size="25" />
                 </div>
@@ -32,7 +39,7 @@
                     <select name="division">
                         <option <?php if ($_POST['division'] == "Command") echo "Selected = 'selected'";?>>Command</option>
                         <option <?php if ($_POST['division'] == "Science") echo "Selected = 'selected'";?>>Science</option>
-                        <option<?php if ($_POST['division'] == "Operations") echo "Selected = 'selected'";?>>Operations</option>
+                        <option <?php if ($_POST['division'] == "Operations") echo "Selected = 'selected'";?>>Operations</option>
                     </select>
                 </div>
                 <br>

@@ -29,7 +29,7 @@
             <div style="color: #CC6699; font-size:2vw;">
                 Division:
                 <select required name="division">
-                    <option placeholder="">Select Division</option>
+                    <option>Select Division</option>
                     <option>Command</option>
                     <option>Science</option>
                     <option>Operations</option>
