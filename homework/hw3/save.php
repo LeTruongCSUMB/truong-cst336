@@ -37,7 +37,7 @@
     <body>
         <div style="color: #CCDDFF">
             <form action="index.php" method="POST">
-                <div style="color: #4455BB">
+                <div style="color: #4455BB; font-size:2vw;">
                     Name: <input type="text" name="name" placeholder="Full name here" value="<?=$_POST['name']?>" size="25" />
                 </div>
                 <br>
