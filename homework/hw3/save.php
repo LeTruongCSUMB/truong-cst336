@@ -18,16 +18,23 @@
                 <h1><span>WELCOME </span><br><br><?php 
                 if($_POST['division'] == "Command"){
                     echo "<div style='color:#a71313'>";
+                    $img = 'img/command.png';
+                    
                 }else if ($_POST['division'] == "Science"){
-                   echo "<div style='color:#2b53a7'>";
+                    echo "<div style='color:#2b53a7'>";
+                    $img = 'img/science.png';
+                    
                 }else if ($_POST['division'] == "Operations"){
                     echo "<div style='color:#c1c730'>";
+                    $img = 'img/operations.png';
+                    
                 }
-                echo $_POST['rank'] ." ".  $_POST['name']; ?></h1>
+                echo $_POST['rank'] ." ".  $_POST['name'], "<img src=\"$img\" alt=\"insignia\" width=\"100\" height=\"100\" />"; 
+                ?></h1>
+                <br>
             </div>
     </head>
     <body>
-        
         <div style="color: #CCDDFF">
             <form action="index.php" method="POST">
                 <div style="color: #4455BB">
