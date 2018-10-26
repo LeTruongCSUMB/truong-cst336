@@ -1,0 +1,11 @@
+body {
+	text-align: center;
+	font-size: 2em;
+}
+table {
+	margin: 0 auto;
+}
+td {
+	width: 150px;
+	height: 100px;
+}
