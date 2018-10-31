@@ -6,9 +6,16 @@ function createMeme($line1, $line2, $memeType) {
     
     
     // map each meme type to the appropriate url
-    
-    
-   
+    if ($memeType == 'college-grad') {
+      $memeURL = 'https://upload.wikimedia.org/wikipedia/commons/c/ca/LinusPaulingGraduation1922.jpg'; 
+    } elseif ($memeType == 'thinking-ape') {
+      $memeURL = 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Deep_in_thought.jpg'
+; 
+    } elseif ($memeType == 'coding') {
+      $memeURL = 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Typing_computer_screen_reflection.jpg' ; 
+    } elseif ($memeType == 'old-class') {
+      $memeURL = 'https://upload.wikimedia.org/wikipedia/commons/4/47/StateLibQld_1_100348.jpg';
+    }
     
     // construct the proper SQL INSERT statement
     $dbConn = getDatabaseConnection(); 
@@ -41,15 +48,7 @@ function createMeme($line1, $line2, $memeType) {
 function displayMemes() {
     $dbConn = getDatabaseConnection(); 
     
-    //$sql = "SELECT * from all_memes WHERE 1";  
-    $sql = "SELECT all_memes.id, all_memes.line1, all_memes.line2, categories.meme_url 
-        FROM all_memes 
-        INNER JOIN categories 
-        ON all_memes.category_id = categories.category_id 
-        WHERE 1";
-    //echo "POST: "; 
-    //print_r($_POST);
-    //echo "<br/>"; 
+    $sql = "SELECT * from all_memes WHERE 1";  
     
     if(isset($_POST['search']) && !empty($_POST['search'])) {
       // query the databse for any records that match this search
