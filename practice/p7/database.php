@@ -3,18 +3,10 @@
 
 function getDatabaseConnection() {
     
-    if($_SERVER['SERVER_NAME'] == "truong-lewis-cst336-letruong.c9users.io") { // running on cloud9
         $host = "localhost";
         $username = "LewisTruong";
         $password = "cst336"; //best practice: defined in a seperate file
-        $dbname = "meme_lab"; 
-    }else {
-        // running on Heroku
-        $host = "us-cdbr-iron-east-01.cleardb.net";
-        $username = "b792c0e574fe58";
-        $password = "32d26c4f"; // best practice: define this in a separte file
-        $dbname = "heroku_ead796e816995bb"; 
-    }
+        $dbname = "c9"; 
     
     // Create connection
     $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
