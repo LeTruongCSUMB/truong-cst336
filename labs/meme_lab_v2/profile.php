@@ -1,7 +1,7 @@
 <?php
 session_start(); 
-
 include 'functions.php'; 
+
 checkLoggedIn(); 
     
 ?>
@@ -22,7 +22,7 @@ checkLoggedIn();
     <div class="memes-container">
       <?php 
          $myMemes = searchForMemes();
-         displayMemes($myMemes); 
+         displayMemes($myMemes, true); 
       ?>
       <div style="clear:both"></div>
     </div>

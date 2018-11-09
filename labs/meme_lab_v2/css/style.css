@@ -64,3 +64,8 @@ nav ul li {
 nav a {
     text-decoration: none; 
 }
+
+.edit-menu {
+ position: absolute;
+ bottom: -22px;
+}

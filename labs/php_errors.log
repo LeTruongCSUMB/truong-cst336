@@ -1,0 +1,6 @@
+[09-Nov-2018 21:19:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'memes_v2.all_memes' doesn't exist' in /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php(42): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/labs/meme_lab_v2/profile.php(24): searchForMemes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php on line 42
