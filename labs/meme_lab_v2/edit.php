@@ -4,10 +4,6 @@ include 'functions.php';
 
 checkLoggedIn(); 
 
-if (isset($_POST['id'])) {
-    //user submitted the form to edit a meme
-    editMeme($_POST['id'], $_POST['line1'], $_POST['line2'], $_POST['meme-type']); 
-}
 
 $memeID = $_GET['id'];
 $memeObj = fetchMemeFromDB($memeID); 
@@ -29,6 +25,7 @@ function generateOptions($selectedType) {
     }
 }
 
+echo $memeID;
 ?>
 
 
@@ -44,7 +41,7 @@ function generateOptions($selectedType) {
      
     <?php displayMemes(array($memeObj)); ?>
      
-    <form method="post">
+    <form method="POST">
         <input type="hidden" name="id" value=<?= $memeObj['id'] ?>>
         Line 1: <input type="text" name="line1" value=<?= $memeObj['line1'] ?>></input> <br/>
         Line 2: <input type="text" name="line2" value=<?= $memeObj['line2'] ?>></input> <br/>

@@ -47,7 +47,6 @@ function searchForMemes($userID = '') {
 
 function displayMemes($records, $editable=false) {
   echo '<div class="memes-container">'; 
-    
       
   foreach ($records as $record) {
        $memeURL = $record['meme_url']; 
@@ -113,7 +112,6 @@ function insertMeme($line1, $line2, $categoryID) {
 function fetchMemeFromDB($memeID) {
   global $dbConn; 
     
-  
   $sql = "SELECT 
       all_memes2.id,
       all_memes2.line1, 
@@ -161,15 +159,9 @@ function editMeme($id, $line1, $line2, $memeType) {
   $categoryID = getCategoryID($memeType); 
   
   
-  //Step 2: Update the meme record in the all_memes2 table
+  //Step 2: Update the meme record in the all_memes table
 
-  $sql = "UPDATE `all_memes2` 
-            SET 
-              line1 = :line1, 
-              line2 = :line2, 
-              category_id = :category_id
-            WHERE 
-              id = :id"; 
+  $sql = "UPDATE `all_memes2` SET line1 = :line1, line2 = :line2, category_id = :category_id WHERE id = :id"; 
 
   
   $statement = $dbConn->prepare($sql); 
@@ -186,10 +178,7 @@ function editMeme($id, $line1, $line2, $memeType) {
 function deleteMemeFromDB($memeID) {
   global $dbConn; 
   
-  $sql = "DELETE  
-    FROM all_memes2  
-    WHERE all_memes2.id = $memeID"; 
-  
+  $sql = "DELETE FROM all_memes2 WHERE all_memes2.id = $memeID"; 
   
   $statement = $dbConn->prepare($sql); 
   
