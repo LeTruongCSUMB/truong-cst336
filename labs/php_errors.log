@@ -13,3 +13,27 @@ Stack trace:
 #1 /home/ubuntu/workspace/ws/labs/meme_lab_v2/delete.php(9): deleteMemeFromDB('25')
 #2 {main}
   thrown in /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php on line 185
+[12-Nov-2018 01:55:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9' in /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php:128
+Stack trace:
+#0 /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php(128): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/labs/meme_lab_v2/edit.php(9): fetchMemeFromDB('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php on line 128
+[12-Nov-2018 02:00:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9' in /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php:128
+Stack trace:
+#0 /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php(128): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/labs/meme_lab_v2/edit.php(9): fetchMemeFromDB('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php on line 128
+[12-Nov-2018 02:03:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9' in /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php:128
+Stack trace:
+#0 /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php(128): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/labs/meme_lab_v2/edit.php(9): fetchMemeFromDB('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php on line 128
+[12-Nov-2018 02:03:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9' in /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php:128
+Stack trace:
+#0 /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php(128): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/labs/meme_lab_v2/edit.php(9): fetchMemeFromDB('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/labs/meme_lab_v2/functions.php on line 128
