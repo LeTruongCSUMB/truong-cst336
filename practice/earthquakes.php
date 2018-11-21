@@ -19,6 +19,8 @@
 
 
       <form method="post">
+        
+        Zip Code:     <input type="text" id="zipcode" value="94015"> <br><br>
 
         Start Time:   <input type="text" id="starttime" value="2018-10-01"> <br><br>
 
@@ -58,7 +60,7 @@
 
             type: "get",
 
-             url: "http://earthquake.usgs.gov/fdsnws/event/1/query",
+             url: "https://earthquake.usgs.gov/fdsnws/event/1/query",
 
         dataType: "json",
 
@@ -81,7 +83,7 @@
             },
 
             success: function(data,status) {
-
+                console.log(data);
               $('#earthquakeResult').html(data["metadata"].title + "<br>");
 
                  for (var i=0; i < data['features'].length; i++ ) {
