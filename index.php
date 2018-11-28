@@ -14,6 +14,7 @@
         <p><a href="http://truong-cst336.herokuapp.com/labs/meme_lab/welcome.php">Lab 6 (Meme_Lab)</a></p>
         <p><a href="http://truong-cst336.herokuapp.com/labs/meme_lab_v2/login.php">Lab 7 (Meme_Lab_V2)</a></p>
         <p><a href="http://truong-cst336.herokuapp.com/labs/hangman">Hangman</a></p>
+        <p><a href="http://truong-cst336.herokuapp.com/labs/lab_9/">Lab 9</a></p>
         
         <p>Homework</p>
         <p><a href="http://truong-cst336.herokuapp.com/homework/hw1/">Homework 1</a></p>

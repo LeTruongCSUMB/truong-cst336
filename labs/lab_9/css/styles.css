@@ -1,0 +1,44 @@
+body {
+    background-image: url(startreklcars2.jpg);
+    background-color: black;
+    background-repeat: repeat;
+    background-size: contain;
+    background-size: cover;
+}
+div.relative{
+    margin-left:auto;
+    margin-right:auto;
+    top: 900px;
+    bottom: 0px;
+    width:960px;
+}
+form {
+    text-align: left;
+    font-family: Okuda, sans-serif;
+    font-size: 32px;
+    color: #FFCC66;
+}
+input[type="text"], textarea {
+    text-align: center;
+    font-family: Okuda, sans-serif;
+    font-size:30px;
+    background-color : #2379;
+    color: #CCDDFF;
+    border-radius: 50px;
+}
+.selectWrapper{
+  border-radius:35px;
+  height:40px;
+  display: inline-block;
+  overflow: hidden;
+  background:#2379;
+}
+.selectBox{
+  width:200px;
+  height:50px;
+  border:0px;
+  outline:none;
+  color: #CCDDFF;
+  background: #2379;
+  text-align: center;
+}

@@ -65,7 +65,7 @@ if (isset($_POST['quote']) && isset($_POST['author'])) {
                 displayQuote($quote, $author);
             ?>
             <br><br><br><br>
-            <a href="https://truong-lewis-cst336-letruong.c9users.io/ws/cst336_midterm/create.php">Create</a>
+            <a href="https://truong-lewis-cst336-letruong.c9users.io/ws/exams/cst336_midterm/create.php">Create</a>
         </form>
     </body>
 </html>

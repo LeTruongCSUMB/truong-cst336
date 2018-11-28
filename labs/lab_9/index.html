@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>County API</title>
+        <style>
+            @import url("css/styles.css");
+            @font-face { 
+                font-family: Okuda; src: url('Okuda.otf');
+            }
+        </style>
+    </head>
+    <body>
+        <div class="relative">
+        <form>
+            
+        Username: <input type="text" id="username" />
+        <span style="color:red" id="usernameValidation"></span>  <br />
+        Password: <input type="text" id="password" />
+        <span style="color:red" id="passwordValidation"></span>  <br />
+        
+        State: <input type="text" id="state"><br />
+        
+        County: 
+        <div class="selectWrapper">
+        <select class="selectBox" id="county" name="countyID"></select>
+        </div><br />
+        
+        Zipcode: <input type="text" id="zipcode"><br />  
+        <span id="show"></span>
+        
+        </form>
+        </div>
+        
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" 
+        crossorigin="anonymous" 
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
+        </script>
+        
+        <script>
+        
+        $("#username").change(function() {
+            $.ajax({
+            type: "get",
+            url: "usernameLookup.php",
+            data: { "username": $(this).val()},
+            success: function(data,status) {
+                if (data == "Available") {
+                    $("#usernameValidation").html("That username is available."); 
+                    $("#usernameValidation").css("color","green");
+                }else{
+                    $("#usernameValidation").html("That username is unavailable.");         
+                    $("#usernameValidation").css("color","#F31431");
+                    }
+                }
+            });
+        });
+        
+        $("#password").change(function() {
+            $.ajax({
+            type: "get",
+            url: "pass.php",
+            data: { "password": $(this).val()},
+            success: function(data,status) {
+                if (data == "Correct") {
+                    $("#passwordValidation").html("Password Correct."); 
+                    $("#passwordValidation").css("color","green");
+                }else{
+                    $("#passwordValidation").html("That password is incorrect.");         
+                    $("#passwordValidation").css("color","#F31431");
+                    }
+                }
+            });
+        });
+
+        $("#state").change(function() {
+                $.ajax({
+                type: "GET",
+                url: "http://hosting.otterlabs.org/laramiguel/ajax/countyList.php",
+                dataType: "json",
+                data: { "state": $("#state").val() },
+                    success: function(data,status) {
+                    console.log(data);
+                    $("#county").html("<option> Select One </option>");
+                    for (var i=0; i< data['counties'].length; i++){
+                     $("#county").append("<option>" + data["counties"][i].county + "</option>" );
+                        }
+                    },
+                complete: function(data,status) { //optional, used for debugging purposes
+                }
+            });
+        });
+        
+        /*$("select").change(function() {
+            $.ajax({
+            type: "GET",
+            url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php", 
+            dataType: "json",
+            data: { "county":  $(this).val() },
+                success: function(data,status) {
+                    console.log(data);
+                    alert(status);
+                },
+                complete: function(data,status) { //optional, used for debugging purposes
+                //alert(status);
+            }
+        });*/
+        
+        $("#zipcode").change(function() {
+            $.ajax({
+            type: "GET",
+            url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php", 
+            dataType: "json",
+            data: { "zip": $("#zipcode").val() },
+                success: function(data,status) {
+                console.log(data);
+                    if (data != false) {
+                        $("#county").html("<option>" + data["county"] + "</option>");
+                        $("#show").html(
+                        "<br>" +
+                        "City: " + data["1"] + "<br>" +
+                        "Latitude: " + data["latitude"] + "<br>" +
+                        "Longitude: " + data["longitude"] + "<br>");
+                    }else {
+                        $("#show").html("The following zipcode does not exist in the registry.");
+                    }
+                },
+                complete: function(data,status) { //optional, used for debugging purposes
+                //alert(status);
+                }
+            });
+        });
+            
+        </script>
+    </body>
+</html>
