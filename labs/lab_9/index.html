@@ -7,15 +7,32 @@
             @font-face { 
                 font-family: Okuda; src: url('Okuda.otf');
             }
+            h1 {
+                font-family: Okuda, sans-serif;
+                color: #CCDDFF;
+                position: relative;
+                left: 15%;
+                right: 40%;
+            }
+            span{
+                font-family: Okuda, sans-serif;
+                color: #FF9900;
+            }
         </style>
     </head>
     <body>
+        <div style="font-size:3vw;">
+        <h1><span>GEO </span>LOCATOR</h1>
+        </div>
+        <br><br><br>
         <div class="relative">
         <form>
             
         Username: <input type="text" id="username" />
-        <span style="color:red" id="usernameValidation"></span>  <br />
-        Password: <input type="text" id="password" />
+        <span style="color:red" id="usernameValidation"></span><br />
+        Password: <input type="password" id="password" /><br />
+        Retype Password: <input type="password" id="password2" />
+        <input type="checkbox" onclick="myFunction()">Show Passwords
         <span style="color:red" id="passwordValidation"></span>  <br />
         
         State: <input type="text" id="state"><br />
@@ -25,7 +42,10 @@
         <select class="selectBox" id="county" name="countyID"></select>
         </div><br />
         
-        Zipcode: <input type="text" id="zipcode"><br />  
+        Zipcode: <input type="text" id="zipcode"><br />
+        <br>
+        <button class="button" type="button" id="submit">Sign Up</button>
+        <br>
         <span id="show"></span>
         
         </form>
@@ -38,39 +58,55 @@
         
         <script>
         
-        $("#username").change(function() {
-            $.ajax({
-            type: "get",
-            url: "usernameLookup.php",
-            data: { "username": $(this).val()},
-            success: function(data,status) {
-                if (data == "Available") {
-                    $("#usernameValidation").html("That username is available."); 
-                    $("#usernameValidation").css("color","green");
-                }else{
-                    $("#usernameValidation").html("That username is unavailable.");         
-                    $("#usernameValidation").css("color","#F31431");
-                    }
-                }
-            });
-        });
+        function myFunction() {
+            var x = document.getElementById("password");
+            var y = document.getElementById("password2");
+            if (x.type === "password" || y.type === "password2") {
+                x.type = "text";
+                y.type = "text";
+            } else {
+                x.type = "password";
+                y.type = "password";
+            }
+        }
         
-        $("#password").change(function() {
-            $.ajax({
-            type: "get",
-            url: "pass.php",
-            data: { "password": $(this).val()},
-            success: function(data,status) {
-                if (data == "Correct") {
-                    $("#passwordValidation").html("Password Correct."); 
+        $(document).ready(function() {
+            $("#submit").click(function() {
+                //$("#username").change(function() {
+                    $.ajax({
+                    type: "get",
+                    url: "usernameLookup.php",
+                    data: { "username": $("#username").val()},
+                    success: function(data,status) {
+                        console.log("username", $("#username").val());
+                        if (data == "Null"){
+                            $("#usernameValidation").html("Please enter a username.");         
+                            $("#usernameValidation").css("color","#F31431");
+                        }else if (data == "Unavailable") {
+                            $("#usernameValidation").html("That username is unavailable.");         
+                            $("#usernameValidation").css("color","#F31431");
+                        }else{
+                            $("#usernameValidation").html("That username is available."); 
+                            $("#usernameValidation").css("color","green");
+                            }
+                        }
+                    //});
+                });
+            });
+            
+            $("#submit").click(function() {
+                if($("#password").val() == "" || $("#password2").val() == "" ){
+                    $("#passwordValidation").html("Passwords not entered.");         
+                    $("#passwordValidation").css("color","#F31431");
+                }else if($("#password").val() == ($("#password2")).val()){
+                    $("#passwordValidation").html("Password matches."); 
                     $("#passwordValidation").css("color","green");
                 }else{
-                    $("#passwordValidation").html("That password is incorrect.");         
+                    $("#passwordValidation").html("Passwords do not match.");         
                     $("#passwordValidation").css("color","#F31431");
-                    }
                 }
             });
-        });
+        
 
         $("#state").change(function() {
                 $.ajax({
@@ -87,6 +123,7 @@
                     },
                 complete: function(data,status) { //optional, used for debugging purposes
                 }
+                });
             });
         });
         
@@ -105,31 +142,31 @@
             }
         });*/
         
-        $("#zipcode").change(function() {
-            $.ajax({
-            type: "GET",
-            url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php", 
-            dataType: "json",
-            data: { "zip": $("#zipcode").val() },
-                success: function(data,status) {
-                console.log(data);
-                    if (data != false) {
-                        $("#county").html("<option>" + data["county"] + "</option>");
-                        $("#show").html(
-                        "<br>" +
-                        "City: " + data["1"] + "<br>" +
-                        "Latitude: " + data["latitude"] + "<br>" +
-                        "Longitude: " + data["longitude"] + "<br>");
-                    }else {
-                        $("#show").html("The following zipcode does not exist in the registry.");
+        $("#zipcode").change(function(e) {
+                $.ajax({
+                type: "GET",
+                url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php", 
+                dataType: "json",
+                data: { "zip": $("#zipcode").val() },
+                    success: function(data,status) {
+                    console.log(data);
+                        if (data != false) {
+                            $("#county").html("<option>" + data["county"] + "</option>");
+                            $("#show").html(
+                            "<br>" +
+                            "City: " + data["1"] + "<br>" +
+                            "Latitude: " + data["latitude"] + "<br>" +
+                            "Longitude: " + data["longitude"] + "<br>");
+                        }else {
+                            $("#show").html("The following zipcode does not exist in the registry.");
+                        }
+                    },
+                    complete: function(data,status) { //optional, used for debugging purposes
+                    //alert(status);
                     }
-                },
-                complete: function(data,status) { //optional, used for debugging purposes
-                //alert(status);
-                }
+                });
             });
-        });
-            
+        
         </script>
     </body>
 </html>
