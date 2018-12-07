@@ -151,6 +151,7 @@
                     success: function(data,status) {
                     console.log(data);
                         if (data != false) {
+                            $("#state").html("value=" + data["2"]);
                             $("#county").html("<option>" + data["county"] + "</option>");
                             $("#show").html(
                             "<br>" +

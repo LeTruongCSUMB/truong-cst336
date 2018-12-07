@@ -19,6 +19,7 @@
             }
             h5, p {
                 font-size: 20px;
+                color: #967a15;
             }
         </style>
    
@@ -51,46 +52,4 @@
           <h1> CSUMB Animal Shelter</h1>
           <h2> The "official" animal adoption website of CSUMB </h2>
         </div>
-        
-        <?=
-            displayImages();
-        ?>
-        <a href="pets.php"><button>Adopt us!</button></a>
-        
-        <?php
-        function displayImages(){
-            $dbConn = getDatabaseConnection(); 
-        
-            $sql = "SELECT pictureURL, description, name FROM `pets` WHERE 1";
-            
-        $statement = $dbConn->prepare($sql); 
-    
-        $statement->execute(); 
-        $records = $statement->fetchAll();
-        
-        $i = 0;
-        echo '<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">';
-        echo '<div class="carousel-inner">';
-        foreach ($records as $record) {
-            echo '<div class="carousel-item ';
-            echo ($i == 0)? 'active' : '';
-            echo '"><img class="w-50 p-3 h-50 d-inline-block" src="img/' . $record["pictureURL"] . '" alt="' . $record["pictureURL"]. '">';
-            echo '<div class="carousel-caption d-none d-md-block">';
-            echo '<h5>' . $record["name"] . '</h5>';
-            echo '<p>' . $record["description"] . '</p>';
-            echo '</div>';
-            echo '</div>';
-            $i++;
-        }
-        echo '</div>';
-        echo '<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">';
-        echo '<span class="carousel-control-prev-icon" aria-hidden="true"></span>';
-        echo '<span class="sr-only">Previous</span>';
-        echo '</a>';
-        echo '<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">';
-        echo '<span class="carousel-control-next-icon" aria-hidden="true"></span>';
-        echo '<span class="sr-only">Next</span>';
-        echo '</a>';
-        echo '</div>';
-        }
-        ?>
+        <h5>There are no pets.</h5>
