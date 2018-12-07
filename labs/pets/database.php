@@ -3,17 +3,17 @@
 
 function getDatabaseConnection() {
     
-    if($_SERVER['SERVER_NAME'] == "c9users") { // running on cloud9
+    if (strpos($_SERVER['SERVER_NAME'], "c9users") !== false) {
         $host = "localhost";
         $username = "LewisTruong";
         $password = "cst336"; //best practice: defined in a seperate file
-        $dbname = "pets"; 
-    }else {
+        $dbname = "pets";
+    }else{
         // running on Heroku
         $host = "us-cdbr-iron-east-01.cleardb.net";
         $username = "b792c0e574fe58";
         $password = "32d26c4f"; // best practice: define this in a separte file
-        $dbname = "heroku_ead796e816995bb"; 
+        $dbname = "heroku_ead796e816995bb";   
     }
     
     // Create connection
