@@ -3,7 +3,7 @@
 
 function getDatabaseConnection() {
     
-    if($_SERVER['SERVER_NAME'] == "truong-lewis-cst336-letruong.c9users.io") { // running on cloud9
+    if($_SERVER['SERVER_NAME'] == "c9users") { // running on cloud9
         $host = "localhost";
         $username = "LewisTruong";
         $password = "cst336"; //best practice: defined in a seperate file
