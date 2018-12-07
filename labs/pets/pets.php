@@ -102,9 +102,9 @@
                     $.ajax({
                     type: "get",
                     url: "adopt.php",
-                    data: {"name": $("#name").val()},
+                    data: {"name": $("#name").text()},
                     success: function(data,status) {
-                        console.log($("#name").val());
+                        console.log(data);
                         //alert(status);
                             $("#showName").html(data['name']);
                             $("#showDes").html(
