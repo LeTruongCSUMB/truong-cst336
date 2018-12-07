@@ -11,11 +11,8 @@
       
     $statement->execute(); 
     $records = $statement->fetchAll();
-          
-    $i = 0;
-    foreach ($records as $record) {
-      echo $record['name'];
-    }
+    
+    
   }
 /*function getDes(){
       $dbConn = getDatabaseConnection(); 
