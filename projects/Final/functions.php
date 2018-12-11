@@ -1,5 +1,6 @@
 <?php
 include 'database.php';
+
 $dbConn = getDatabaseConnection();
 
 session_start(); 
@@ -12,16 +13,16 @@ function checkLoggedIn() {
 }
 
 
-function searchForMemes($userID = '') {
+function searchForComics($userID = '') {
     global $dbConn; 
     
     $sql = "SELECT
-        all_memes2.id,
-        all_memes2.line1, 
-        all_memes2.line2, 
-        categories.meme_url 
-      FROM all_memes2 INNER JOIN categories 
-      ON all_memes2.category_id = categories.category_id 
+        comics.id,
+        comics.line1, 
+        comics.line2, 
+        categories.comic_url 
+      FROM comics INNER JOIN categories 
+      ON comics.category_id = categories.category_id 
       WHERE 1"; 
     
     if (!empty($userID)) {
@@ -34,8 +35,8 @@ function searchForMemes($userID = '') {
         $sql .= " AND (line1 LIKE '%{$_POST['search']}%' OR line2 LIKE '%{$_POST['search']}%')";
     } 
     
-    if(isset($_POST['meme-type-search']) && !empty($_POST['meme-type-search'])) {
-        $sql .= " AND meme_type = '{$_POST['meme-type-search']}'"; 
+    if(isset($_POST['comics-type-search']) && !empty($_POST['comics-type-search'])) {
+        $sql .= " AND comic_type = '{$_POST['comics-type-search']}'"; 
     }
     
     $statement = $dbConn->prepare($sql); 
@@ -45,12 +46,12 @@ function searchForMemes($userID = '') {
     return $records; 
 }
 
-function displayMemes($records, $editable=false) {
-  echo '<div class="memes-container">'; 
+function displayComics($records, $editable=false) {
+  echo '<div class="comics-container">'; 
       
   foreach ($records as $record) {
-       $memeURL = $record['meme_url']; 
-       echo  '<div class="meme-div" style="background-image:url('. $memeURL .')">'; 
+       $comicURL = $record['comic_url']; 
+       echo  '<div class="comic-div" style="background-image:url('. $comicURL .')">'; 
        echo  '<h2 class="line1">' . $record["line1"] . '</h2>'; 
        echo  '<h2 class="line2">' . $record["line2"] . '</h2>'; 
        
@@ -70,12 +71,12 @@ function displayMemes($records, $editable=false) {
 
 
 
-// Fetch the category_id from the categories table for the chosen meme type
+// Fetch the category_id from the categories table for the chosen comic type
 
-function getCategoryID($memeType) {
+function getCategoryID($comicType) {
   global $dbConn; 
   
-  $sql = "SELECT category_id from categories WHERE meme_type = '$memeType'";
+  $sql = "SELECT category_id from categories WHERE comic_type = '$comicType'";
      
   $statement = $dbConn->prepare($sql); 
   
@@ -89,12 +90,12 @@ function getCategoryID($memeType) {
 
 
 
-// INSERT the new meme into the all_memes2 table
+// INSERT the new comic into the comics table
 
-function insertMeme($line1, $line2, $categoryID) {
+function insertComic($line1, $line2, $categoryID) {
     global $dbConn; 
     
-    $sql = "INSERT INTO `all_memes2` 
+    $sql = "INSERT INTO `comics` 
       (`id`, `line1`, `line2`, `category_id`, `create_date`, `user_id`) 
       VALUES 
       (NULL, '$line1', '$line2', '$categoryID', NOW(), '{$_SESSION['user_id']}');";
@@ -106,65 +107,65 @@ function insertMeme($line1, $line2, $categoryID) {
 }
 
 
-// fetch the newly created meme object from database JOINED with the
-// the appropriate category information (meme url)
+// fetch the newly created comic object from database JOINED with the
+// the appropriate category information (comic url)
     
-function fetchMemeFromDB($memeID) {
+function fetchComicFromDB($comicID) {
   global $dbConn; 
     
   $sql = "SELECT 
-      all_memes2.id,
-      all_memes2.line1, 
-      all_memes2.line2, 
-      categories.meme_url,
-      categories.meme_type
-    FROM all_memes2 INNER JOIN categories 
-    ON all_memes2.category_id = categories.category_id 
-    WHERE all_memes2.id = $memeID"; 
+      comics.id,
+      comics.line1, 
+      comics.line2, 
+      categories.comic_url,
+      categories.comic_type
+    FROM comics INNER JOIN categories 
+    ON comics.category_id = categories.category_id 
+    WHERE comics.id = $comicID"; 
   
   
   $statement = $dbConn->prepare($sql); 
   
   $statement->execute(); 
   $records = $statement->fetchAll(); 
-  $newMeme = $records[0]; 
-  //echo "New Meme: ";
+  $newComic = $records[0]; 
+  //echo "New Comic: ";
   //print_r($records);
   //echo "<br>";
   //echo $sql;
   //echo "<br>";
-  return $newMeme; 
+  return $newComic; 
 }
 
 
-function createMeme($line1, $line2, $memeType) {
+function createComic($line1, $line2, $comicType) {
     global $dbConn; 
     
-    //Step 1: Get the category ID for the selected meme type
-    $categoryID = getCategoryID($memeType); 
+    //Step 1: Get the category ID for the selected comic type
+    $categoryID = getCategoryID($comicType); 
     
-    //Step 2: Insert the meme information (along with the category ID) into the
-    // all_memes2 table
-    $result = insertMeme($line1, $line2, $categoryID); 
+    //Step 2: Insert the comic information (along with the category ID) into the
+    // comics table
+    $result = insertComic($line1, $line2, $categoryID); 
 
-    //Step 3: Fetch the new meme joined with the meme_url information
+    //Step 3: Fetch the new comic joined with the comic_url information
     $last_id = $dbConn->lastInsertId();
-    $newMeme = fetchMemeFromDB($last_id); 
-    return $newMeme; 
+    $newComic = fetchComicFromDB($last_id); 
+    return $newComic; 
 
 
 }
 
-function editMeme($id, $line1, $line2, $memeType) {
+function editComic($id, $line1, $line2, $comicType) {
   global $dbConn; 
   
   
-  //Step 1: Get the category ID for the selected meme type
-  $categoryID = getCategoryID($memeType); 
+  //Step 1: Get the category ID for the selected comic type
+  $categoryID = getCategoryID($comicType); 
   
-  //Step 2: Update the meme record in the all_memes table
+  //Step 2: Update the comic record in the all_comics table
 
-  $sql = "UPDATE `all_memes2` SET line1 = :line1, line2 = :line2, category_id = :category_id WHERE id = :id"; 
+  $sql = "UPDATE `comics` SET line1 = :line1, line2 = :line2, category_id = :category_id WHERE id = :id"; 
 
   $statement = $dbConn->prepare($sql); 
   $statement->execute(array(
@@ -177,14 +178,55 @@ function editMeme($id, $line1, $line2, $memeType) {
   
 }
 
-function deleteMemeFromDB($memeID) {
+function deleteComicFromDB($comicID) {
   global $dbConn; 
   
-  $sql = "DELETE FROM all_memes2 WHERE all_memes2.id = $memeID"; 
+  $sql = "DELETE FROM comics WHERE comics.id = $comicID"; 
   
   $statement = $dbConn->prepare($sql); 
   
   $statement->execute(); 
 }
 
+
+function getOptions(){
+    global $dbConn;
+    
+    $sql = "SELECT comic_type, comic_url FROM `categories` WHERE 1";
+    
+    $statement = $dbConn->prepare($sql); 
+      
+    $statement->execute(); 
+    $records = $statement->fetchAll();
+    
+    foreach ($records as $record) {
+        echo '<option value="';
+        echo $record["comic_url"];
+        echo '" name="';
+        echo $record["comic_type"];
+        echo '">';
+        echo $record["comic_type"];
+        echo '</option>';
+        echo '<br>';
+    }
+}
+
+function getImage(){
+    global $dbConn; 
+    
+    if(!isset($_POST['comic-type'])){
+        $sql = "SELECT comic_url FROM `categories` WHERE comic_type='comic1'";
+        
+        $statement = $dbConn->prepare($sql); 
+    
+        $statement->execute(); 
+        $records = $statement->fetchAll();
+        
+        foreach ($records as $record) {
+            echo $record['comic_url'];
+        }
+    }else{
+    echo $_POST['comic-type'];
+    }
+}
 ?>

@@ -1,3 +1,10 @@
+<?php
+include "functions.php";
+session_start();
+$_SESSION['comic-type'] = $_POST['comic-type'];
+$imgURL = $_SESSION['comic-type'];
+?>
+This is generate, where comics are made, welcome.
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +16,7 @@
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    color: Black;
 }
 
 .user-text {
@@ -25,13 +32,13 @@
 <?php 
     echo $_POST['top'];
 	echo $_POST['left'];
-	echo $_POST['right'];
-	echo $_POST['bottom'];
 	print_r($_POST);
     ?>
 <p>How to place text over an image:</p>
 
-<form action="imageoverlay.php" method="POST">
+<form action="generate.php" method="POST">
+    <input type="text" id="text" name="text" placeholder="Enter your text here">
+    <br><br>
 	X: <input type="text" id="top" name="top"> px
     <br><br>
     Y: <input type="text" id="left" name="left"> px
@@ -41,12 +48,12 @@
 <br>
 <br><br>
 <div class="container">
-  <img src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Snow" style="width:100%;">
-  <div class="user-text">Text</div>
+  <img src="<?= $imgURL; ?>" alt="Comic Image">
+  <div class="user-text"><?= $_POST['text'];?></div>
 </div>
 
 <script>
-    $('#submit').click(function() {
+    $('#top').change(function() {
     $.ajax({
         url: 'imageoverlay.php',
         type: 'POST',
@@ -55,8 +62,20 @@
         success: function() {
             
         }               
+        });
     });
-});
+    
+    $('#left').change(function() {
+    $.ajax({
+        url: 'imageoverlay.php',
+        type: 'POST',
+        data: {
+        },
+        success: function() {
+            
+        }               
+        });
+    });
 </script>
 
 </body>
