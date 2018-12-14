@@ -1,52 +1,30 @@
 <?php
 include 'database.php';
-//include 'functions.php';
-
-$dbConn = getDatabaseConnection();
-
-session_start(); 
-
 ?>
-
 
 <?php
-  global $dbConn;
-
-    $errors = array();
-        if (isset($_POST['userID']) && isset($_POST['password'])){
-        
-        $username = $_POST['userID'];
-        $tempPassword = $_POST['userPassword1'];
-        $password = sha1($tempPassword);
-        
-        echo $username."</br>" ;
-        echo $password."</br>";
-        
-        // $sql = "INSERT INTO `users`(`user_id` ,`username`, `password`) VALUES (NULL ,$username,$password)";
-        
-        
-        // $statement = $dbConn->prepare($sql); 
-        // echo"success";
-        
-        // $statement->execute(); 
-        // $records = $statement->fetchAll(); 
-        
-        
-        
-        $statement = mysqli_prepare($con, "INSERT INTO users VALUES(?,?,?");
-        mysqli_stmt_bind_param($statement, "sssss", $username, $userPassword);
-        mysqli_stmt_execute("$statement");
-        
-        $response = array();
-        $response["success"] = true;
-        
-        echo json_enchode($response);
-    
-        
-        
-    }
-
+     
+    $con = new PDO ("mysql:host=localhost;dbname=comics", "LewisTruong", "cst336");
+    echo "Connected";
+ 
+ if(isset($_POST['join'])){
+     $userName = $_POST['username'];
+     $userpassword = $_POST['password'];
+     $pass = sha1($userpassword);
+     
+     //$sql = "INSERT INTO `users` (`user_id`, `username`, `password`) VALUES (NULL, $userName, $pass)";
+     
+     $insert = $con->prepare("INSERT INTO users (username, password) VALUES (:username, :password)");
+     
+    //$insert->bindParam(":user_id",NULL);
+     $insert->bindParam(":username",$userName);
+     $insert->bindParam(":password",$pass);
+     
+     $insert->execute();
+ }
 ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -176,20 +154,6 @@ a {
    }
 </script>
     
-<!-- include 'navigation.php' ?>-->
-<!--   <%=-->
-<!--   String userID = null;-->
-<!--   if (session.getAttribute("userID") != null) {-->
-<!--      userID = (String) session.getAttribute("userID");-->
-<!--   }-->
-<!--   if(userID ==null){-->
-<!--      session.setAttribute("messageType", "Error Message");-->
-<!--      session.setAttribute("messageContent", "Already Login");-->
-<!--      response.sendRedirect("index.jsp");-->
-<!--      return;-->
-<!--   }-->
-<!--=%>-->
-
     
 <form action="join.php" style="max-width:500px; max-height:500px;margin:auto;" method="POST" id="registerForm">
   <div class="container">
@@ -198,7 +162,7 @@ a {
     <hr>
     
     <label for="ID"><b>User Name</b></label>
-    <input id="userID" type="text" placeholder="Enter Username" name="userID" value = "<?php echo $username?>">
+    <input id="userID" type="text" placeholder="Enter Username" name="username" value = "<?php echo $username?>">
     
     <label for="psw"><b>Password</b></label>
     <input id="userPassword1"  type="password" placeholder="Enter Password" name="password" value = "<?php echo $userPassword1?>">

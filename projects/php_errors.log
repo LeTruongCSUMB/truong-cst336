@@ -298,3 +298,1028 @@ Stack trace:
 [11-Dec-2018 05:51:55 UTC] PHP Stack trace:
 [11-Dec-2018 05:51:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
 [11-Dec-2018 05:51:55 UTC] PHP   2. getImage() /home/ubuntu/workspace/ws/projects/Final/index.php:40
+[11-Dec-2018 21:20:02 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ws/projects/Final/join.php on line 36
+[11-Dec-2018 21:20:02 UTC] PHP Stack trace:
+[11-Dec-2018 21:20:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[11-Dec-2018 21:20:02 UTC] PHP   2. mysqli_prepare() /home/ubuntu/workspace/ws/projects/Final/join.php:36
+[11-Dec-2018 21:20:02 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/ws/projects/Final/join.php on line 37
+[11-Dec-2018 21:20:02 UTC] PHP Stack trace:
+[11-Dec-2018 21:20:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[11-Dec-2018 21:20:02 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/ws/projects/Final/join.php:37
+[11-Dec-2018 21:20:02 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, string given in /home/ubuntu/workspace/ws/projects/Final/join.php on line 38
+[11-Dec-2018 21:20:02 UTC] PHP Stack trace:
+[11-Dec-2018 21:20:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[11-Dec-2018 21:20:02 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/ws/projects/Final/join.php:38
+[11-Dec-2018 21:20:02 UTC] PHP Fatal error:  Call to undefined function json_enchode() in /home/ubuntu/workspace/ws/projects/Final/join.php on line 43
+[11-Dec-2018 21:20:02 UTC] PHP Stack trace:
+[11-Dec-2018 21:20:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[11-Dec-2018 21:21:37 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/ws/projects/Final/join.php on line 36
+[11-Dec-2018 21:21:37 UTC] PHP Stack trace:
+[11-Dec-2018 21:21:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[11-Dec-2018 21:21:37 UTC] PHP   2. mysqli_prepare() /home/ubuntu/workspace/ws/projects/Final/join.php:36
+[11-Dec-2018 21:21:37 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/ws/projects/Final/join.php on line 37
+[11-Dec-2018 21:21:37 UTC] PHP Stack trace:
+[11-Dec-2018 21:21:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[11-Dec-2018 21:21:37 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/ws/projects/Final/join.php:37
+[11-Dec-2018 21:21:37 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, string given in /home/ubuntu/workspace/ws/projects/Final/join.php on line 38
+[11-Dec-2018 21:21:37 UTC] PHP Stack trace:
+[11-Dec-2018 21:21:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[11-Dec-2018 21:21:37 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/ws/projects/Final/join.php:38
+[11-Dec-2018 21:21:37 UTC] PHP Fatal error:  Call to undefined function json_enchode() in /home/ubuntu/workspace/ws/projects/Final/join.php on line 43
+[11-Dec-2018 21:21:37 UTC] PHP Stack trace:
+[11-Dec-2018 21:21:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[11-Dec-2018 21:32:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'roundtrip'' in /home/ubuntu/workspace/ws/projects/Final/join.php:78
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/join.php(78): PDO->__construct('mysql:host=0.0....', 'letruong', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/join.php on line 78
+[11-Dec-2018 21:33:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/ws/projects/Final/join.php:91
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/join.php(91): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/join.php on line 91
+[11-Dec-2018 21:56:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/ws/projects/Final/join.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/join.php(90): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/join.php on line 90
+[12-Dec-2018 05:57:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 37
+[12-Dec-2018 05:57:48 UTC] PHP Stack trace:
+[12-Dec-2018 05:57:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 05:59:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 38
+[12-Dec-2018 05:59:08 UTC] PHP Stack trace:
+[12-Dec-2018 05:59:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 05:59:19 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 38
+[12-Dec-2018 05:59:19 UTC] PHP Stack trace:
+[12-Dec-2018 05:59:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:02:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '123)' at line 1' in /home/ubuntu/workspace/ws/projects/Final/join.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/join.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/join.php on line 44
+[12-Dec-2018 06:05:50 UTC] PHP Fatal error:  Undefined class constant 'getDatabaseConnection' in /home/ubuntu/workspace/ws/projects/Final/join.php on line 11
+[12-Dec-2018 06:05:50 UTC] PHP Stack trace:
+[12-Dec-2018 06:05:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:20:04 UTC] PHP Fatal error:  Call to undefined function execute() in /home/ubuntu/workspace/ws/projects/Final/join.php on line 44
+[12-Dec-2018 06:20:04 UTC] PHP Stack trace:
+[12-Dec-2018 06:20:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:21:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''123)' at line 1' in /home/ubuntu/workspace/ws/projects/Final/join.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/join.php(46): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/join.php on line 46
+[12-Dec-2018 06:21:35 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 35
+[12-Dec-2018 06:21:35 UTC] PHP Stack trace:
+[12-Dec-2018 06:21:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:22:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 35
+[12-Dec-2018 06:22:18 UTC] PHP Stack trace:
+[12-Dec-2018 06:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:23:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 35
+[12-Dec-2018 06:23:05 UTC] PHP Stack trace:
+[12-Dec-2018 06:23:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:23:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 35
+[12-Dec-2018 06:23:11 UTC] PHP Stack trace:
+[12-Dec-2018 06:23:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:24:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 35
+[12-Dec-2018 06:24:12 UTC] PHP Stack trace:
+[12-Dec-2018 06:24:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:24:20 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 35
+[12-Dec-2018 06:24:20 UTC] PHP Stack trace:
+[12-Dec-2018 06:24:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:28:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 31
+[12-Dec-2018 06:28:48 UTC] PHP Stack trace:
+[12-Dec-2018 06:28:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:28:54 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 31
+[12-Dec-2018 06:28:54 UTC] PHP Stack trace:
+[12-Dec-2018 06:28:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:28:59 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 31
+[12-Dec-2018 06:28:59 UTC] PHP Stack trace:
+[12-Dec-2018 06:28:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:29:06 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 31
+[12-Dec-2018 06:29:06 UTC] PHP Stack trace:
+[12-Dec-2018 06:29:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:29:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 31
+[12-Dec-2018 06:29:31 UTC] PHP Stack trace:
+[12-Dec-2018 06:29:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:29:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 31
+[12-Dec-2018 06:29:32 UTC] PHP Stack trace:
+[12-Dec-2018 06:29:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:33:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 21
+[12-Dec-2018 06:33:28 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:34:06 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/ws/projects/Final/database.php:4) in /home/ubuntu/workspace/ws/projects/Final/database.php on line 4
+[12-Dec-2018 06:34:06 UTC] PHP Stack trace:
+[12-Dec-2018 06:34:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:34:06 UTC] PHP   2. include() /home/ubuntu/workspace/ws/projects/Final/join.php:3
+[12-Dec-2018 06:34:22 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/ws/projects/Final/database.php:4) in /home/ubuntu/workspace/ws/projects/Final/database.php on line 4
+[12-Dec-2018 06:34:22 UTC] PHP Stack trace:
+[12-Dec-2018 06:34:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 06:34:22 UTC] PHP   2. include() /home/ubuntu/workspace/ws/projects/Final/join.php:3
+[12-Dec-2018 06:34:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/join.php on line 18
+[12-Dec-2018 06:34:29 UTC] PHP Stack trace:
+[12-Dec-2018 06:34:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 08:04:20 UTC] PHP Fatal error:  Call to undefined method PDOStatement::bind_param() in /home/ubuntu/workspace/ws/projects/Final/join.php on line 42
+[12-Dec-2018 08:04:20 UTC] PHP Stack trace:
+[12-Dec-2018 08:04:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 08:18:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ws/projects/Final/join.php on line 228
+[12-Dec-2018 08:20:15 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/ubuntu/workspace/ws/projects/Final/join.php on line 40
+[12-Dec-2018 08:20:15 UTC] PHP Stack trace:
+[12-Dec-2018 08:20:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 08:20:49 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/ws/projects/Final/join.php on line 44
+[12-Dec-2018 08:20:49 UTC] PHP Stack trace:
+[12-Dec-2018 08:20:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 08:20:49 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/ws/projects/Final/join.php:44
+[12-Dec-2018 08:21:00 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/ws/projects/Final/join.php on line 44
+[12-Dec-2018 08:21:00 UTC] PHP Stack trace:
+[12-Dec-2018 08:21:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 08:21:00 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/ws/projects/Final/join.php:44
+[12-Dec-2018 08:24:09 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/ubuntu/workspace/ws/projects/Final/join.php on line 40
+[12-Dec-2018 08:24:09 UTC] PHP Stack trace:
+[12-Dec-2018 08:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 08:24:23 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/ws/projects/Final/join.php on line 44
+[12-Dec-2018 08:24:23 UTC] PHP Stack trace:
+[12-Dec-2018 08:24:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/join.php:0
+[12-Dec-2018 08:24:23 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/ws/projects/Final/join.php:44
+[12-Dec-2018 20:08:59 UTC] PHP Parse error:  syntax error, unexpected '" . "' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/ws/projects/Final/gallery.php on line 19
+[12-Dec-2018 20:45:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comics.line1' in 'field list'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(43): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/comics.php(34): searchForComics()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 43
+[12-Dec-2018 20:45:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comics.line1' in 'field list'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(43): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/profile.php(27): searchForComics('1')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 43
+[13-Dec-2018 23:53:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comics.id' in 'field list'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(43): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/profile.php(27): searchForComics(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 43
+[14-Dec-2018 00:39:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comics.id' in 'field list'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(43): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/profile.php(27): searchForComics('133')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 43
+[14-Dec-2018 00:56:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comics.id' in 'field list'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(43): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/comics.php(34): searchForComics()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 43
+[14-Dec-2018 00:56:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comics.id' in 'field list'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(43): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/profile.php(27): searchForComics(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 43
+[14-Dec-2018 00:56:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comics.id' in 'field list'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(43): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/profile.php(27): searchForComics(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 43
+[14-Dec-2018 01:12:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM comic-text-box INNER JOIN comics 
+      ON comics.category_id = categories.' at line 8' in /home/ubuntu/workspace/ws/projects/Final/functions.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(45): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/profile.php(27): searchForComics('133')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 45
+[14-Dec-2018 02:41:52 UTC] PHP Parse error:  syntax error, unexpected '-', expecting ')' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 77
+[14-Dec-2018 02:41:52 UTC] PHP Stack trace:
+[14-Dec-2018 02:41:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/profile.php:0
+[14-Dec-2018 02:41:57 UTC] PHP Parse error:  syntax error, unexpected '-', expecting ')' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 77
+[14-Dec-2018 02:41:57 UTC] PHP Stack trace:
+[14-Dec-2018 02:41:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/comics.php:0
+[14-Dec-2018 02:42:04 UTC] PHP Parse error:  syntax error, unexpected '-', expecting ')' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 77
+[14-Dec-2018 02:42:04 UTC] PHP Stack trace:
+[14-Dec-2018 02:42:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:42:08 UTC] PHP Parse error:  syntax error, unexpected '-', expecting ')' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 77
+[14-Dec-2018 02:42:08 UTC] PHP Stack trace:
+[14-Dec-2018 02:42:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/comics.php:0
+[14-Dec-2018 02:42:40 UTC] PHP Parse error:  syntax error, unexpected '-', expecting ')' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 77
+[14-Dec-2018 02:42:40 UTC] PHP Stack trace:
+[14-Dec-2018 02:42:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:42:58 UTC] PHP Parse error:  syntax error, unexpected '-', expecting ')' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 77
+[14-Dec-2018 02:42:58 UTC] PHP Stack trace:
+[14-Dec-2018 02:42:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:43:08 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 151
+[14-Dec-2018 02:43:08 UTC] PHP Stack trace:
+[14-Dec-2018 02:43:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:43:23 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 151
+[14-Dec-2018 02:43:23 UTC] PHP Stack trace:
+[14-Dec-2018 02:43:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:43:27 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 151
+[14-Dec-2018 02:43:27 UTC] PHP Stack trace:
+[14-Dec-2018 02:43:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:45:16 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 151
+[14-Dec-2018 02:45:16 UTC] PHP Stack trace:
+[14-Dec-2018 02:45:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:45:22 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 151
+[14-Dec-2018 02:45:22 UTC] PHP Stack trace:
+[14-Dec-2018 02:45:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:45:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 159
+[14-Dec-2018 02:45:33 UTC] PHP Stack trace:
+[14-Dec-2018 02:45:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:45:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 159
+[14-Dec-2018 02:45:36 UTC] PHP Stack trace:
+[14-Dec-2018 02:45:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:46:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 159
+[14-Dec-2018 02:46:08 UTC] PHP Stack trace:
+[14-Dec-2018 02:46:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:46:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 159
+[14-Dec-2018 02:46:37 UTC] PHP Stack trace:
+[14-Dec-2018 02:46:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:46:41 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 159
+[14-Dec-2018 02:46:41 UTC] PHP Stack trace:
+[14-Dec-2018 02:46:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:46:45 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 159
+[14-Dec-2018 02:46:45 UTC] PHP Stack trace:
+[14-Dec-2018 02:46:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:47:03 UTC] PHP Parse error:  syntax error, unexpected 'UPDATE' (T_STRING) in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 188
+[14-Dec-2018 02:47:03 UTC] PHP Stack trace:
+[14-Dec-2018 02:47:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:48:51 UTC] PHP Parse error:  syntax error, unexpected 'DELETE' (T_STRING) in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 205
+[14-Dec-2018 02:48:51 UTC] PHP Stack trace:
+[14-Dec-2018 02:48:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:49:52 UTC] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 226
+[14-Dec-2018 02:49:52 UTC] PHP Stack trace:
+[14-Dec-2018 02:49:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 02:50:32 UTC] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 226
+[14-Dec-2018 02:50:32 UTC] PHP Stack trace:
+[14-Dec-2018 02:50:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 03:38:30 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 159
+[14-Dec-2018 03:38:30 UTC] PHP Stack trace:
+[14-Dec-2018 03:38:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:20:09 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 53
+[14-Dec-2018 04:20:09 UTC] PHP Stack trace:
+[14-Dec-2018 04:20:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:25:32 UTC] PHP Parse error:  syntax error, unexpected 'global' (T_GLOBAL), expecting ',' or ';' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 154
+[14-Dec-2018 04:25:32 UTC] PHP Stack trace:
+[14-Dec-2018 04:25:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:25:37 UTC] PHP Parse error:  syntax error, unexpected 'global' (T_GLOBAL), expecting ',' or ';' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 154
+[14-Dec-2018 04:25:37 UTC] PHP Stack trace:
+[14-Dec-2018 04:25:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 04:31:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/ws/projects/Final/functions.php:156
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(156): PDO->query('SELECT * FROM `...')
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(7): createComic('123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 156
+[14-Dec-2018 04:32:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/ws/projects/Final/functions.php:156
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(156): PDO->query('SELECT * FROM `...')
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(7): createComic('123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 156
+[14-Dec-2018 04:32:54 UTC] PHP Parse error:  syntax error, unexpected '123' (T_LNUMBER) in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 156
+[14-Dec-2018 04:32:54 UTC] PHP Stack trace:
+[14-Dec-2018 04:32:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:33:42 UTC] PHP Parse error:  syntax error, unexpected 'query' (T_STRING) in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 158
+[14-Dec-2018 04:33:42 UTC] PHP Stack trace:
+[14-Dec-2018 04:33:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:33:53 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 189 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 04:33:53 UTC] PHP Stack trace:
+[14-Dec-2018 04:33:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:33:53 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:7
+[14-Dec-2018 04:33:53 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:189
+[14-Dec-2018 04:33:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(189): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(7): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 04:35:41 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 189 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 04:35:41 UTC] PHP Stack trace:
+[14-Dec-2018 04:35:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:35:41 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:8
+[14-Dec-2018 04:35:41 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:189
+[14-Dec-2018 04:35:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(189): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(8): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 04:37:48 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 4
+[14-Dec-2018 04:38:20 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 4
+[14-Dec-2018 04:38:32 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 189 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 04:38:32 UTC] PHP Stack trace:
+[14-Dec-2018 04:38:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:38:32 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:5
+[14-Dec-2018 04:38:32 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:189
+[14-Dec-2018 04:38:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(189): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(5): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 04:39:03 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 187 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 04:39:03 UTC] PHP Stack trace:
+[14-Dec-2018 04:39:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:39:03 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:5
+[14-Dec-2018 04:39:03 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:187
+[14-Dec-2018 04:39:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(187): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(5): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 04:39:43 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 187 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 04:39:43 UTC] PHP Stack trace:
+[14-Dec-2018 04:39:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:39:43 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:5
+[14-Dec-2018 04:39:43 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:187
+[14-Dec-2018 04:39:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(187): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(5): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 04:39:52 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 187 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 04:39:52 UTC] PHP Stack trace:
+[14-Dec-2018 04:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:39:52 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:5
+[14-Dec-2018 04:39:52 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:187
+[14-Dec-2018 04:39:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(187): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(5): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 04:40:15 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 187 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 04:40:15 UTC] PHP Stack trace:
+[14-Dec-2018 04:40:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:40:15 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:5
+[14-Dec-2018 04:40:15 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:187
+[14-Dec-2018 04:40:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(187): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(5): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 04:51:41 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 4
+[14-Dec-2018 04:51:44 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 4
+[14-Dec-2018 04:52:01 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 4
+[14-Dec-2018 04:52:24 UTC] PHP Parse error:  syntax error, unexpected '' . $_POST['' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 4
+[14-Dec-2018 04:52:50 UTC] PHP Parse error:  syntax error, unexpected '' . $_POST['' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 4
+[14-Dec-2018 04:53:36 UTC] PHP Parse error:  syntax error, unexpected '' . $_POST['' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 4
+[14-Dec-2018 04:55:49 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 159
+[14-Dec-2018 04:55:49 UTC] PHP Stack trace:
+[14-Dec-2018 04:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:56:13 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 188 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 04:56:13 UTC] PHP Stack trace:
+[14-Dec-2018 04:56:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:56:13 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:8
+[14-Dec-2018 04:56:13 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:188
+[14-Dec-2018 04:56:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(188): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(8): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 04:56:56 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 188 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 04:56:56 UTC] PHP Stack trace:
+[14-Dec-2018 04:56:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:56:56 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:8
+[14-Dec-2018 04:56:56 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:188
+[14-Dec-2018 04:56:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(188): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(8): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 04:57:40 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 188 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 04:57:40 UTC] PHP Stack trace:
+[14-Dec-2018 04:57:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:57:40 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:8
+[14-Dec-2018 04:57:40 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:188
+[14-Dec-2018 04:57:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(188): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(8): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 04:57:53 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 188 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 04:57:53 UTC] PHP Stack trace:
+[14-Dec-2018 04:57:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:57:53 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:8
+[14-Dec-2018 04:57:53 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:188
+[14-Dec-2018 04:57:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(188): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(8): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 04:59:49 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 190 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 04:59:49 UTC] PHP Stack trace:
+[14-Dec-2018 04:59:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:59:49 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:8
+[14-Dec-2018 04:59:49 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:190
+[14-Dec-2018 04:59:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(190): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(8): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 04:59:54 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 190 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 04:59:54 UTC] PHP Stack trace:
+[14-Dec-2018 04:59:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 04:59:54 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:8
+[14-Dec-2018 04:59:54 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:190
+[14-Dec-2018 04:59:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(190): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(8): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 05:01:17 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 156
+[14-Dec-2018 05:01:17 UTC] PHP Stack trace:
+[14-Dec-2018 05:01:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 05:02:02 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 156
+[14-Dec-2018 05:02:02 UTC] PHP Stack trace:
+[14-Dec-2018 05:02:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 05:02:12 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 156
+[14-Dec-2018 05:02:12 UTC] PHP Stack trace:
+[14-Dec-2018 05:02:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/index.php:0
+[14-Dec-2018 05:04:49 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 190 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 05:04:49 UTC] PHP Stack trace:
+[14-Dec-2018 05:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 05:04:49 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:8
+[14-Dec-2018 05:04:49 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:190
+[14-Dec-2018 05:04:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(190): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(8): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 05:50:30 UTC] PHP Warning:  Missing argument 5 for insertComic(), called in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 190 and defined in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 99
+[14-Dec-2018 05:50:30 UTC] PHP Stack trace:
+[14-Dec-2018 05:50:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 05:50:30 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:8
+[14-Dec-2018 05:50:30 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:190
+[14-Dec-2018 05:50:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(190): insertComic('123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(8): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 05:51:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:115
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(115): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(190): insertComic('123', '123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(8): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 115
+[14-Dec-2018 05:57:31 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 8
+[14-Dec-2018 05:57:49 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 8
+[14-Dec-2018 05:57:52 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 8
+[14-Dec-2018 05:58:13 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 7
+[14-Dec-2018 05:58:13 UTC] PHP Stack trace:
+[14-Dec-2018 05:58:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 05:58:13 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/ws/projects/Final/generate.php:7
+[14-Dec-2018 05:58:13 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 7
+[14-Dec-2018 05:58:13 UTC] PHP Stack trace:
+[14-Dec-2018 05:58:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 05:58:13 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/ws/projects/Final/generate.php:7
+[14-Dec-2018 05:58:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      VALUES 
+      (NULL, '123', '', '')' at line 2' in /home/ubuntu/workspace/ws/projects/Final/functions.php:114
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(114): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(185): insertComic('123', '123', '123', '123', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(13): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 114
+[14-Dec-2018 05:58:14 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 7
+[14-Dec-2018 05:58:14 UTC] PHP Stack trace:
+[14-Dec-2018 05:58:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 05:58:14 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/ws/projects/Final/generate.php:7
+[14-Dec-2018 05:58:14 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 7
+[14-Dec-2018 05:58:14 UTC] PHP Stack trace:
+[14-Dec-2018 05:58:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 05:58:14 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/ws/projects/Final/generate.php:7
+[14-Dec-2018 05:58:43 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 7
+[14-Dec-2018 05:58:43 UTC] PHP Stack trace:
+[14-Dec-2018 05:58:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 05:58:43 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/ws/projects/Final/generate.php:7
+[14-Dec-2018 05:58:43 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 7
+[14-Dec-2018 05:58:43 UTC] PHP Stack trace:
+[14-Dec-2018 05:58:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 05:58:43 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/ws/projects/Final/generate.php:7
+[14-Dec-2018 06:00:40 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 8
+[14-Dec-2018 06:00:40 UTC] PHP Stack trace:
+[14-Dec-2018 06:00:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:01:14 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 9
+[14-Dec-2018 06:01:14 UTC] PHP Stack trace:
+[14-Dec-2018 06:01:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:02:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''https://external-preview.redd.it/nAOTx45HOlRyClVO_KYmyXwRaR8j7i9xJOnauKps-MA.pn' at line 1' in /home/ubuntu/workspace/ws/projects/Final/generate.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/generate.php(8): PDO->query('SELECT `categor...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 8
+[14-Dec-2018 06:03:01 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 9
+[14-Dec-2018 06:03:01 UTC] PHP Stack trace:
+[14-Dec-2018 06:03:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:03:10 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 9
+[14-Dec-2018 06:03:10 UTC] PHP Stack trace:
+[14-Dec-2018 06:03:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:04:05 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 10
+[14-Dec-2018 06:04:05 UTC] PHP Stack trace:
+[14-Dec-2018 06:04:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:04:49 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 10
+[14-Dec-2018 06:04:49 UTC] PHP Stack trace:
+[14-Dec-2018 06:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:04:58 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 10
+[14-Dec-2018 06:04:58 UTC] PHP Stack trace:
+[14-Dec-2018 06:04:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:06:07 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 10
+[14-Dec-2018 06:06:07 UTC] PHP Stack trace:
+[14-Dec-2018 06:06:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:08:03 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 10
+[14-Dec-2018 06:08:03 UTC] PHP Stack trace:
+[14-Dec-2018 06:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:08:15 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 10
+[14-Dec-2018 06:08:15 UTC] PHP Stack trace:
+[14-Dec-2018 06:08:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:15:15 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 17
+[14-Dec-2018 06:17:28 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 18
+[14-Dec-2018 06:19:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  VALUES 
+      (NULL, 'Hi Mom', '', '133')' at line 1' in /home/ubuntu/workspace/ws/projects/Final/functions.php:114
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(114): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(185): insertComic('Hi Mom', 'Hi Mom', '50', '50', NULL)
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(19): createComic('Hi Mom', '50', '50', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 114
+[14-Dec-2018 06:20:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM comics INNER JOIN categories 
+    ON comics.category_id = categories.catego' at line 7' in /home/ubuntu/workspace/ws/projects/Final/functions.php:139
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(139): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(189): fetchComicFromDB('3')
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(19): createComic('Hi Mom', '50', '50', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 139
+[14-Dec-2018 06:21:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM comics INNER JOIN categories 
+    ON comics.category_id = categories.catego' at line 7' in /home/ubuntu/workspace/ws/projects/Final/functions.php:139
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(139): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(189): fetchComicFromDB('4')
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(18): createComic('This is hard', '50', '50', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 139
+[14-Dec-2018 06:21:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM comics INNER JOIN categories 
+    ON comics.category_id = categories.catego' at line 7' in /home/ubuntu/workspace/ws/projects/Final/functions.php:139
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(139): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(189): fetchComicFromDB('5')
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(18): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 139
+[14-Dec-2018 06:21:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM comics INNER JOIN categories 
+    ON comics.category_id = categories.catego' at line 7' in /home/ubuntu/workspace/ws/projects/Final/functions.php:139
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(139): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(189): fetchComicFromDB('6')
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 139
+[14-Dec-2018 06:21:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM comics INNER JOIN categories 
+    ON comics.category_id = categories.catego' at line 7' in /home/ubuntu/workspace/ws/projects/Final/functions.php:139
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(139): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(189): fetchComicFromDB('7')
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 139
+[14-Dec-2018 06:22:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM comics INNER JOIN categories 
+    ON comics.category_id = categories.catego' at line 7' in /home/ubuntu/workspace/ws/projects/Final/functions.php:139
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(139): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(189): fetchComicFromDB('8')
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 139
+[14-Dec-2018 06:25:04 UTC] PHP Fatal error:  Call to undefined method PDO::pprepare() in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 111
+[14-Dec-2018 06:25:04 UTC] PHP Stack trace:
+[14-Dec-2018 06:25:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:25:04 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:21
+[14-Dec-2018 06:25:04 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:192
+[14-Dec-2018 06:25:54 UTC] PHP Fatal error:  Call to undefined method PDO::pprepare() in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 111
+[14-Dec-2018 06:25:54 UTC] PHP Stack trace:
+[14-Dec-2018 06:25:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:25:54 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:21
+[14-Dec-2018 06:25:54 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:192
+[14-Dec-2018 06:26:23 UTC] PHP Fatal error:  Call to undefined method PDO::pprepare() in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 111
+[14-Dec-2018 06:26:23 UTC] PHP Stack trace:
+[14-Dec-2018 06:26:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:26:23 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:21
+[14-Dec-2018 06:26:23 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:192
+[14-Dec-2018 06:27:01 UTC] PHP Fatal error:  Call to undefined method PDO::pprepare() in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 111
+[14-Dec-2018 06:27:01 UTC] PHP Stack trace:
+[14-Dec-2018 06:27:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:27:01 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:21
+[14-Dec-2018 06:27:01 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:192
+[14-Dec-2018 06:27:42 UTC] PHP Fatal error:  Call to undefined method PDO::pprepare() in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 111
+[14-Dec-2018 06:27:42 UTC] PHP Stack trace:
+[14-Dec-2018 06:27:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:27:42 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:21
+[14-Dec-2018 06:27:42 UTC] PHP   3. insertComic() /home/ubuntu/workspace/ws/projects/Final/functions.php:192
+[14-Dec-2018 06:28:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:198
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(198): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 198
+[14-Dec-2018 06:28:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:198
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(198): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 198
+[14-Dec-2018 06:29:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:198
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(198): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 198
+[14-Dec-2018 06:29:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:177
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(177): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 177
+[14-Dec-2018 06:30:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM comics INNER JOIN categories 
+    ON comics.category_id = categories.catego' at line 7' in /home/ubuntu/workspace/ws/projects/Final/functions.php:146
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(146): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(196): fetchComicFromDB('11')
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 146
+[14-Dec-2018 06:30:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:191
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(191): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 191
+[14-Dec-2018 06:31:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:196
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(196): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 196
+[14-Dec-2018 06:33:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:196
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(196): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 196
+[14-Dec-2018 06:34:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:196
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(196): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 196
+[14-Dec-2018 06:35:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:195
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(195): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 195
+[14-Dec-2018 06:35:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:195
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(195): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 195
+[14-Dec-2018 06:35:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:195
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(195): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 195
+[14-Dec-2018 06:36:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:195
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(195): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 195
+[14-Dec-2018 06:36:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:172
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(172): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 172
+[14-Dec-2018 06:36:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:196
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(196): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 196
+[14-Dec-2018 06:37:00 UTC] PHP Parse error:  syntax error, unexpected '' . $_POST['' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 4
+[14-Dec-2018 06:40:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://i.imgur.com/4ceeBEg.png<br>' at line 1' in /home/ubuntu/workspace/ws/projects/Final/generate.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/generate.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 15
+[14-Dec-2018 06:40:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/ws/projects/Final/generate.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/generate.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 15
+[14-Dec-2018 06:41:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/ws/projects/Final/generate.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/generate.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 15
+[14-Dec-2018 06:41:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/ws/projects/Final/generate.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/generate.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/generate.php on line 15
+[14-Dec-2018 06:42:57 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 276
+[14-Dec-2018 06:42:57 UTC] PHP Stack trace:
+[14-Dec-2018 06:42:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:43:22 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 276
+[14-Dec-2018 06:43:22 UTC] PHP Stack trace:
+[14-Dec-2018 06:43:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:43:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 279
+[14-Dec-2018 06:43:39 UTC] PHP Stack trace:
+[14-Dec-2018 06:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:43:39 UTC] PHP   2. checkID() /home/ubuntu/workspace/ws/projects/Final/generate.php:8
+[14-Dec-2018 06:44:01 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 279
+[14-Dec-2018 06:44:01 UTC] PHP Stack trace:
+[14-Dec-2018 06:44:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:44:01 UTC] PHP   2. checkID() /home/ubuntu/workspace/ws/projects/Final/generate.php:8
+[14-Dec-2018 06:44:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 279
+[14-Dec-2018 06:44:04 UTC] PHP Stack trace:
+[14-Dec-2018 06:44:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:44:04 UTC] PHP   2. checkID() /home/ubuntu/workspace/ws/projects/Final/generate.php:8
+[14-Dec-2018 06:44:46 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 279
+[14-Dec-2018 06:44:46 UTC] PHP Stack trace:
+[14-Dec-2018 06:44:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 06:44:46 UTC] PHP   2. checkID() /home/ubuntu/workspace/ws/projects/Final/generate.php:8
+[14-Dec-2018 06:46:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:196
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(196): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('Title', 'Checking', '400', '20', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 196
+[14-Dec-2018 06:47:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:196
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(196): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 196
+[14-Dec-2018 06:50:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:196
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(196): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('title', 'text', '', '', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 196
+[14-Dec-2018 06:51:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:196
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(196): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 196
+[14-Dec-2018 06:51:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:196
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(196): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('text123', '', '', '', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 196
+[14-Dec-2018 06:57:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:198
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(198): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 198
+[14-Dec-2018 06:57:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:198
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(198): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('The new Title', 'Hooray', '', '', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 198
+[14-Dec-2018 06:58:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:198
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(198): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('The new Title', 'Hooray', '', '', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 198
+[14-Dec-2018 06:58:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:198
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(198): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('The new Title', 'Hooray', '', '', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 198
+[14-Dec-2018 06:58:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:198
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(198): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('text123', '', '', '', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 198
+[14-Dec-2018 07:00:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:198
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(198): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('123', '123', '123', '123', 'https://i.imgur...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 198
+[14-Dec-2018 07:01:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:198
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(198): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('title new', 'text new', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 198
+[14-Dec-2018 07:02:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:200
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(200): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('title new', 'text new', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 200
+[14-Dec-2018 07:02:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:201
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(201): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('title new', 'text new', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 201
+[14-Dec-2018 07:02:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:201
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(201): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('title new', 'text new', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 201
+[14-Dec-2018 07:02:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:201
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(201): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('title new', 'text new', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 201
+[14-Dec-2018 07:03:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:201
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(201): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('title new', 'text new', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 201
+[14-Dec-2018 07:03:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:201
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(201): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('title new', 'text new', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 201
+[14-Dec-2018 07:04:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:201
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(201): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('title new', 'text new', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 201
+[14-Dec-2018 07:04:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:201
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(201): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('title new', 'text new', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 201
+[14-Dec-2018 07:04:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:201
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(201): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('title new', 'text new', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 201
+[14-Dec-2018 07:05:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:202
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(202): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('title new', 'text new', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 202
+[14-Dec-2018 07:05:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:200
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(200): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('title new', 'text new', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 200
+[14-Dec-2018 07:05:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/Final/functions.php:202
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(202): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(20): createComic('title new', 'text new', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 202
+[14-Dec-2018 07:16:37 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 180
+[14-Dec-2018 07:16:37 UTC] PHP Stack trace:
+[14-Dec-2018 07:16:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 07:16:37 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:20
+[14-Dec-2018 07:17:11 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 180
+[14-Dec-2018 07:17:11 UTC] PHP Stack trace:
+[14-Dec-2018 07:17:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 07:17:11 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:21
+[14-Dec-2018 07:23:44 UTC] PHP Parse error:  syntax error, unexpected '$insert' (T_VARIABLE) in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 179
+[14-Dec-2018 07:23:44 UTC] PHP Stack trace:
+[14-Dec-2018 07:23:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 07:23:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'field list'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:182
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(182): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('haha', '123', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 182
+[14-Dec-2018 07:24:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'field list'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:182
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(182): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('haha', '123', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 182
+[14-Dec-2018 07:25:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'field list'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:182
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(182): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('haha', '123', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 182
+[14-Dec-2018 07:29:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'field list'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:181
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(181): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('haha', '123', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 181
+[14-Dec-2018 07:45:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'field list'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:181
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(181): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', 'https://externa...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 181
+[14-Dec-2018 07:47:52 UTC] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 175
+[14-Dec-2018 07:47:52 UTC] PHP Stack trace:
+[14-Dec-2018 07:47:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 07:48:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comics.category_id' in 'on clause'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:141
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(141): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(203): fetchComicFromDB('159')
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', 'https://externa...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 141
+[14-Dec-2018 07:48:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comics.category_id' in 'on clause'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:143
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(143): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/functions.php(204): fetchComicFromDB('161')
+#2 /home/ubuntu/workspace/ws/projects/Final/generate.php(21): createComic('123', '123', '123', '123', 'https://externa...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 143
+[14-Dec-2018 07:50:01 UTC] PHP Fatal error:  Call to undefined function insertComic() in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 200
+[14-Dec-2018 07:50:01 UTC] PHP Stack trace:
+[14-Dec-2018 07:50:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/Final/generate.php:0
+[14-Dec-2018 07:50:01 UTC] PHP   2. createComic() /home/ubuntu/workspace/ws/projects/Final/generate.php:21
+[14-Dec-2018 07:56:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comics.category_id' in 'field list'' in /home/ubuntu/workspace/ws/projects/Final/functions.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/Final/functions.php(43): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/Final/profile.php(27): searchForComics('133')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 43

@@ -22,5 +22,8 @@
         <p><a href="http://truong-cst336.herokuapp.com/homework/hw2/">Homework 2</a></p>
         <p><a href="http://truong-cst336.herokuapp.com/homework/hw3/">Homework 3</a></p>
         <p><a href="http://truong-cst336.herokuapp.com/homework/spaceInvaders/">Homework 4</a></p>
+        
+        <p>FINAL PROJECT</p>
+        <p><a href="http://truong-cst336.herokuapp.com/projects/finals/login.php">Comic Generator</a></p>
     </body>
 </html>

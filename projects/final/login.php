@@ -30,6 +30,9 @@ function validate($username, $password) {
 ?>
 
 
+
+
+
 <!DOCTYPE html>
 <html>
     <head>
