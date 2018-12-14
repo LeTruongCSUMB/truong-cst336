@@ -9,16 +9,19 @@ session_start();
 function checkLoggedIn() {
     if (!isset($_SESSION['user_id'])) {
         header("Location: login.php"); 
+    //    $userLogin = $_POST['user_id'];
+        
     }
+     
 }
 
 //SQL code for joining USERS with COMIC-TEXT-BOX for USER_ID
     /*
     $sql = "SELECT 
-            `users`.`user_id` 
-            FROM `users` 
+            `users2`.`user_id` 
+            FROM `users2` 
             INNER JOIN `comic-text-box` 
-            ON `comic-text-box`.`user_id` = `users`.`user_id`";
+            ON `comic-text-box`.`user_id` = `users2.`user_id`";
     */
         
 //SQL code for joining COMICS with COMIC-TEXT-BOX for COMIC_ID
@@ -94,7 +97,7 @@ function getCategoryID($comicType) {
   
   global $dbConn; 
   
-  $sql = "SELECT category_id from categories WHERE comic_type = '$comicType'";
+  $sql = "SELECT category_id from categories2 WHERE comic_type = '$comicType'";
      
   $statement = $dbConn->prepare($sql); 
   
@@ -124,7 +127,7 @@ function insertComic($text, $xpos, $ypos) {
     // $sql = "INSERT INTO `comic-text-box` (`comic_id`, `text`, `xpos`, `ypos`) VALUES 
     //   (NULL, '$text', '$xpos', '$ypos')";
  
-
+    echo "userid: " . $_SESSION['user_id'];
     $insert = $dbConn->prepare("INSERT INTO comic-text-box(text, xpos, ypos) VALUES(:title, :xpos, :ypos)");   
 
     $insert->bindParam(":text", $text);
@@ -150,9 +153,9 @@ function fetchComicFromDB($comic_id) {
     
   $sql = "SELECT
         `comics`.`comic_id`, 
-        `categories`.`category_id` 
-        FROM `comics` INNER JOIN `categories` 
-        ON `comics`.`category_id` = `categories`.`category_id`"; 
+        `categories2`.`category_id` 
+        FROM `comics` INNER JOIN `categories2` 
+        ON `comics`.`category_id` = `categories2`.`category_id`"; 
   
   $statement = $dbConn->prepare($sql); 
   
@@ -174,7 +177,7 @@ function createComic($title, $text, $xpos, $ypos, $category_id) {
     global $dbConn; 
      
         
-    // if($title == $query){
+     if($title == $query){
     //     // $insert = $dbConn->prepare( "SELECT `comic_id`, 
     //     //         `title`,
     //     //         `category_id` 
@@ -182,22 +185,20 @@ function createComic($title, $text, $xpos, $ypos, $category_id) {
     //     //         );
     //     $insert = $dbConn->prepare( "SELECT `comic_id`, `title`, `category_id` FROM `comics` WHERE `title` = $title");
         
-    //     echo "title == query";
+     echo "title == query";
         
-    // }else {
+     }else {
      //   INSERT INTO `comics` (`comic_id`, `title`, `comic_url`) VALUES (NULL, '123\r\n', '');
       //echo "start here"."</br>". $category_id ."</br>";
         $insert = $dbConn->prepare("INSERT INTO comics(title, comic_url) VALUES (:title , :category_id)");
-        echo "</br>"."category:" .$category;
         $insert->bindParam(":title", $title);
         $insert->bindParam(":category_id", $category_id);
-        $insert->execute();
+ //       $insert->execute();
         
-        
-    //}
+    }
     
-    
-    //  $insert = $con->prepare("INSERT INTO users (username, password) VALUES (:username, :password)");
+
+    //  $insert = $con->prepare("INSERT INTO users2 (username, password) VALUES (:username, :password)");
      
     // //$insert->bindParam(":user_id",NULL);
     //  $insert->bindParam(":username",$userName);
@@ -256,7 +257,7 @@ function deleteComicFromDB($category_id) {
 function getOptions(){
     global $dbConn;
     
-    $sql = "SELECT comic_type, comic_url FROM `categories` WHERE 1";
+    $sql = "SELECT comic_type, comic_url FROM `categories2` WHERE 1";
     
     $statement = $dbConn->prepare($sql); 
       
@@ -279,7 +280,7 @@ function getOptions(){
     global $dbConn; 
     
     /*if(!isset($_POST['comic-type'])){
-        $sql = "SELECT comic_url FROM `categories` WHERE `comic_type` ='comic1'";
+        $sql = "SELECT comic_url FROM `categories2` WHERE `comic_type` ='comic1'";
         
         $statement = $dbConn->prepare($sql); 
     
@@ -294,7 +295,7 @@ function getOptions(){
     //}
 }*/
 function checkID(){
-    $sql = "SELECT `category_id` FROM `categories` WHERE `comic_url` LIKE '" . $_POST['comic-type'] . "'<br>";
+    $sql = "SELECT `category_id` FROM `categories2` WHERE `comic_url` LIKE '" . $_POST['comic-type'] . "'<br>";
     
     $statement = $dbConn->prepare($sql); 
 

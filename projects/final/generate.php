@@ -9,16 +9,15 @@ include "functions.php";
 
 //SELECT * from tutorials_tbl WHERE tutorial_author = 'Sanjay';
     
-    //$result= $dbConn->query("SELECT `category_id` FROM `categories` WHERE `comic_url`='" . $_POST['comic-type'] . "'");
+    //$result= $dbConn->query("SELECT `category_id` FROM `categories2` WHERE `comic_url`='" . $_POST['comic-type'] . "'");
 
     //$fetch = $query->fetch();
 
     //print_r($fetch);
 
+    
     if (isset($_POST['text']) && $_POST['title']&& isset($_POST['xpos']) && isset($_POST['ypos'])) {
-        
-    $cate_id = $_POST["comic-type"];
-    $comicObj = createComic( $_POST['title'], $_POST['text'], $_POST['xpos'], $_POST['ypos'], $cate_id); 
+        $comicObj = createComic( $_POST['title'], $_POST['text'], $_POST['xpos'], $_POST['ypos'], $_POST['category_id']); 
     
         
     }

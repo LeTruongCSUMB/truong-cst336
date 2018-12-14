@@ -1323,3 +1323,28 @@ Stack trace:
 #1 /home/ubuntu/workspace/ws/projects/Final/profile.php(27): searchForComics('133')
 #2 {main}
   thrown in /home/ubuntu/workspace/ws/projects/Final/functions.php on line 43
+[14-Dec-2018 08:34:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'comics.categories2' doesn't exist' in /home/ubuntu/workspace/ws/projects/final/functions.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/functions.php(101): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/final/functions.php(208): getCategoryID(NULL)
+#2 /home/ubuntu/workspace/ws/projects/final/generate.php(21): createComic('dilbert', 'yore', '0', '300', 'https://externa...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/functions.php on line 101
+[14-Dec-2018 08:59:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'comic_url' cannot be null' in /home/ubuntu/workspace/ws/projects/final/functions.php:197
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/functions.php(197): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/final/generate.php(20): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/functions.php on line 197
+[14-Dec-2018 09:01:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'comic_url' cannot be null' in /home/ubuntu/workspace/ws/projects/final/functions.php:196
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/functions.php(196): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/final/generate.php(20): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/functions.php on line 196
+[14-Dec-2018 09:01:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'comic_url' cannot be null' in /home/ubuntu/workspace/ws/projects/final/functions.php:196
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/functions.php(196): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/final/generate.php(20): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/functions.php on line 196

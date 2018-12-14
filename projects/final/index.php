@@ -3,12 +3,11 @@
 include 'functions.php';
 
 
-
 if (isset($_POST['line1']) && isset($_POST['line2'])) {
   $memeObj = createMeme($_POST['line1'], $_POST['line2'], $_POST['meme-type']); 
   
-  
 }
+
 
 ?>
 <!DOCTYPE html>
@@ -26,7 +25,6 @@ if (isset($_POST['line1']) && isset($_POST['line2'])) {
     <h1>Comic Generator</h1>
     <h3>Welcome to the Comic Generator!</h3>
     
-
   <form action="generate.php" method="post">
     <div class="input-group mb-3" style="width:500px">
       <div class="input-group-prepend">
@@ -39,9 +37,7 @@ if (isset($_POST['line1']) && isset($_POST['line2'])) {
     </div>
   </form>
     
-    
     <span id="imageShow"></span>
-    
     
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
         crossorigin="anonymous" 
@@ -68,7 +64,8 @@ if (isset($_POST['line1']) && isset($_POST['line2'])) {
       });
     </script>
   
-     <footer class="bg-dark mt-4 p-5 text-center" style="color: #FFFFFF;">
+     <footer class="bg-dark mt-4 p-5 text-center" style="color: #FFFFFF; position:absolute;
+   bottom:0;">
        &copy;
    </footer>
   </body>
