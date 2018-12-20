@@ -25,5 +25,8 @@
         
         <p>FINAL PROJECT</p>
         <p><a href="http://truong-cst336.herokuapp.com/projects/final/login.php">Comic Generator</a></p>
+        
+        <p>FINAL</p>
+        <p><a href="http://truong-cst336.herokuapp.com/exams/final/login.php">FINAL</a></p>
     </body>
 </html>
