@@ -17,7 +17,11 @@
         $dbPort = 3306;
         
         // Which database (the name of the database in phpMyAdmin)?
-        $database = "final";
+        if ($dbname == "heroku_ead796e816995bb"){
+          $database = "heroku_ead796e816995bb";
+        }else {  
+          $database = "final";
+        }
         
         // My user information...I could have prompted for password, as well, or stored in the
         // environment, or, or, or (all in the name of better security)
@@ -61,7 +65,11 @@
         $dbPort = 3306;
         
         // Which database (the name of the database in phpMyAdmin)?
-        $database = "final";
+        if ($dbname == "heroku_ead796e816995bb"){
+          $database = "heroku_ead796e816995bb";
+        }else {  
+          $database = "final";
+        }
         
         // My user information...I could have prompted for password, as well, or stored in the
         // environment, or, or, or (all in the name of better security)
@@ -118,14 +126,81 @@
 
 
         break;
+        
       case 'PUT':
+        // Get the body json that was sent
+        $rawJsonString = file_get_contents("php://input");
+        
+        // Make it a associative array (by making second param = true)
+        $postedJsonData = json_decode($rawJsonString, true);
+        
+        
+        // Save the data to the database
+        $servername = getenv('IP');
+        $dbPort = 3306;
+        
+        // Which database (the name of the database in phpMyAdmin)?
+        if ($dbname == "heroku_ead796e816995bb"){
+          $database = "heroku_ead796e816995bb";
+        }else {  
+          $database = "final";
+        }
+        
+        // My user information...I could have prompted for password, as well, or stored in the
+        // environment, or, or, or (all in the name of better security)
+        $username = getenv('C9_USER');
+        $password = "";
+        
+        // Establish the connection and then alter how we are tracking errors (look those keywords up)
+        $dbConn = new PDO("mysql:host=$servername;port=$dbPort;dbname=$database", $username, $password);
+        $dbConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        
+        
+        
         header("Access-Control-Allow-Origin: *");
-        http_response_code(401);
-        echo "Not Supported";
         break;
+        
       case 'DELETE':
+        // Get the body json that was sent
+        $rawJsonString = file_get_contents("php://input");
+        
+        // Make it a associative array (by making second param = true)
+        $postedJsonData = json_decode($rawJsonString, true);
+        
+        
+        // Save the data to the database
+        $servername = getenv('IP');
+        $dbPort = 3306;
+        
+        // Which database (the name of the database in phpMyAdmin)?
+        if ($dbname == "heroku_ead796e816995bb"){
+          $database = "heroku_ead796e816995bb";
+        }else {  
+          $database = "final";
+        }
+        
+        // My user information...I could have prompted for password, as well, or stored in the
+        // environment, or, or, or (all in the name of better security)
+        $username = getenv('C9_USER');
+        $password = "";
+        
+        // Establish the connection and then alter how we are tracking errors (look those keywords up)
+        $dbConn = new PDO("mysql:host=$servername;port=$dbPort;dbname=$database", $username, $password);
+        $dbConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        
+        $whereSql = "
+        DELETE FROM `page` WHERE `id` =  " . $_GET['id'] . "'";
+        
+        // The prepare caches the SQL statement for N number of parameters imploded above
+        $whereStmt = $dbConn->prepare($whereSql);
+        
+        // Just have to pop in the associative array that comes from json_decode
+        $whereStmt->execute($postedAssocArray);
+        
+        // Returns associative array instead of a cursor
+        $sqlQueryResultsAssocArray = $whereStmt->fetchAll(PDO::FETCH_ASSOC);
+        // Allow any client to access
         header("Access-Control-Allow-Origin: *");
-        http_response_code(401);
         break;
     }
 ?>
