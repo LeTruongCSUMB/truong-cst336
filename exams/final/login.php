@@ -43,7 +43,7 @@ function validate($username, $password) {
                 validate($_POST['username'], $_POST['password']);  
             }
         ?>
-
+        Username: superman123 Password: cst336
         <form method="POST">
             Username: <input type="text" name="username"></input> <br/>
             Password: <input type="password" name="password"></input> <br/>
