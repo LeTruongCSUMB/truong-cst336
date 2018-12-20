@@ -1348,3 +1348,89 @@ Stack trace:
 #1 /home/ubuntu/workspace/ws/projects/final/generate.php(20): createComic('123', '123', '123', '123', NULL)
 #2 {main}
   thrown in /home/ubuntu/workspace/ws/projects/final/functions.php on line 196
+[14-Dec-2018 09:04:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'comic_url' cannot be null' in /home/ubuntu/workspace/ws/projects/final/functions.php:196
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/functions.php(196): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/final/generate.php(19): createComic('mooo', 'young', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/functions.php on line 196
+[14-Dec-2018 09:05:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'comic_url' cannot be null' in /home/ubuntu/workspace/ws/projects/final/functions.php:196
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/functions.php(196): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/final/generate.php(19): createComic('mooo', 'young', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/functions.php on line 196
+[14-Dec-2018 09:06:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'comic_url' cannot be null' in /home/ubuntu/workspace/ws/projects/final/functions.php:196
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/functions.php(196): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/final/generate.php(19): createComic('mooo', 'young', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/functions.php on line 196
+[14-Dec-2018 09:09:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ws/projects/final/functions.php:137
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/functions.php(137): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/final/functions.php(213): insertComic('young', '123', '123')
+#2 /home/ubuntu/workspace/ws/projects/final/generate.php(22): createComic('mooo', 'young', '123', '123', 'https://externa...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/functions.php on line 137
+[14-Dec-2018 09:17:09 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/ws/projects/final/database.php:4) in /home/ubuntu/workspace/ws/projects/final/database.php on line 4
+[14-Dec-2018 09:17:09 UTC] PHP Stack trace:
+[14-Dec-2018 09:17:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/final/login.php:0
+[14-Dec-2018 09:17:09 UTC] PHP   2. include() /home/ubuntu/workspace/ws/projects/final/login.php:6
+[14-Dec-2018 09:17:53 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/ws/projects/final/database.php:4) in /home/ubuntu/workspace/ws/projects/final/database.php on line 4
+[14-Dec-2018 09:17:53 UTC] PHP Stack trace:
+[14-Dec-2018 09:17:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/final/login.php:0
+[14-Dec-2018 09:17:53 UTC] PHP   2. include() /home/ubuntu/workspace/ws/projects/final/login.php:6
+[14-Dec-2018 09:18:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'comics.users' doesn't exist' in /home/ubuntu/workspace/ws/projects/final/login.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/login.php(15): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/ws/projects/final/login.php(119): validate('123', '123')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/login.php on line 15
+[14-Dec-2018 09:18:44 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/ws/projects/final/database.php:4) in /home/ubuntu/workspace/ws/projects/final/database.php on line 4
+[14-Dec-2018 09:18:44 UTC] PHP Stack trace:
+[14-Dec-2018 09:18:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/final/join.php:0
+[14-Dec-2018 09:18:44 UTC] PHP   2. include() /home/ubuntu/workspace/ws/projects/final/join.php:3
+[14-Dec-2018 09:19:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'comics.users' doesn't exist' in /home/ubuntu/workspace/ws/projects/final/login.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/login.php(15): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/ws/projects/final/login.php(118): validate('123', '123')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/login.php on line 15
+[14-Dec-2018 09:21:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'comics.users' doesn't exist' in /home/ubuntu/workspace/ws/projects/final/login.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/login.php(15): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/ws/projects/final/login.php(118): validate('dhan', '123')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/login.php on line 15
+[14-Dec-2018 09:21:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'comics.users' doesn't exist' in /home/ubuntu/workspace/ws/projects/final/login.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/login.php(15): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/ws/projects/final/login.php(118): validate('dhan', '123')
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/login.php on line 15
+[14-Dec-2018 09:30:00 UTC] PHP Fatal error:  Call to undefined function userInfo() in /home/ubuntu/workspace/ws/projects/final/login.php on line 27
+[14-Dec-2018 09:30:00 UTC] PHP Stack trace:
+[14-Dec-2018 09:30:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ws/projects/final/login.php:0
+[14-Dec-2018 09:30:00 UTC] PHP   2. validate() /home/ubuntu/workspace/ws/projects/final/login.php:122
+[14-Dec-2018 10:39:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ws/projects/final/index.php on line 127
+[14-Dec-2018 11:45:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'comic_url' cannot be null' in /home/ubuntu/workspace/ws/projects/final/functions.php:210
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/functions.php(210): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/final/generate.php(22): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/functions.php on line 210
+[14-Dec-2018 11:46:13 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/ubuntu/workspace/ws/projects/final/generate.php on line 109
+[14-Dec-2018 11:46:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'comic_url' cannot be null' in /home/ubuntu/workspace/ws/projects/final/functions.php:210
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/functions.php(210): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/final/generate.php(22): createComic('123', '123', '123', '123', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/functions.php on line 210
+[14-Dec-2018 12:39:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null' in /home/ubuntu/workspace/ws/projects/final/functions.php:149
+Stack trace:
+#0 /home/ubuntu/workspace/ws/projects/final/functions.php(149): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ws/projects/final/functions.php(228): insertComic('??????', '10', '10')
+#2 /home/ubuntu/workspace/ws/projects/final/generate.php(22): createComic('??????', '??????', '10', '10', 'https://externa...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/ws/projects/final/functions.php on line 149

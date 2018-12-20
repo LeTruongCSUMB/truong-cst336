@@ -9,11 +9,11 @@ session_start();
 function checkLoggedIn() {
     if (!isset($_SESSION['user_id'])) {
         header("Location: login.php"); 
-    //    $userLogin = $_POST['user_id'];
         
     }
      
 }
+
 
 //SQL code for joining USERS with COMIC-TEXT-BOX for USER_ID
     /*
@@ -49,7 +49,6 @@ function searchForComics($userID = '') {
         $sql .= " AND user_id = '$userID'"; 
     }
 
-    
     if(isset($_POST['search'])) {
         // query the databse for any records that match this search
         $sql .= " AND (text LIKE '%{$_POST['search']}%')";
@@ -118,18 +117,30 @@ function getCategoryID($comicType) {
 
 function insertComic($text, $xpos, $ypos) {
     global $dbConn; 
-    
+ 
     //check if title already exists in the database select from comics
-    //if no then insert row into comics table and category_id
+    //if no then insert rowto comics table and category_id
     //else yes then get the comic.id from the comic-text-bx where comic.id = {...}
     
     
     // $sql = "INSERT INTO `comic-text-box` (`comic_id`, `text`, `xpos`, `ypos`) VALUES 
     //   (NULL, '$text', '$xpos', '$ypos')";
  
-    echo "userid: " . $_SESSION['user_id'];
-    $insert = $dbConn->prepare("INSERT INTO comic-text-box(text, xpos, ypos) VALUES(:title, :xpos, :ypos)");   
-
+    $user_ID=  $_SESSION['user_id'];
+    
+    $insert = $dbConn->prepare("INSERT INTO `comic-text-box` (`user_id`, `comic_id`, `text`, `xpos`, `ypos`) 
+    VALUES (:user_id, :comic_id, :text, :xpos, :ypos)");
+    
+    
+    // echo $text ."</br>";   
+    // echo $xpos ."</br>";
+    // echo $ypos ."</br>";
+    // echo $user_ID ;
+    
+//   $insert = $dbConn->prepare("INSERT INTO comic-text-box(text, xpos, ypos) VALUES(:title, :xpos, :ypos)");   
+    
+    $insert->bindParam(":user_id", $user_ID);
+    $insert->bindParam(":comic_id", $user_ID);
     $insert->bindParam(":text", $text);
     $insert->bindParam(":xpos", $xpos);
     $insert->bindParam(":ypos", $ypos);
@@ -142,6 +153,7 @@ function insertComic($text, $xpos, $ypos) {
     // $result = $statement->execute(); 
     
     // return $result; 
+ 
 }
 
 
@@ -176,26 +188,27 @@ function createComic($title, $text, $xpos, $ypos, $category_id) {
    
     global $dbConn; 
      
+    //     $user_ID = $_SESSION['user_id'];
+    // echo $user_ID;
+    // //  if($title == $query){
+    // //     // $insert = $dbConn->prepare( "SELECT `comic_id`, 
+    // //     //         `title`,
+    // //     //         `category_id` 
+    // //     //         FROM `comics` WHERE `title` = $title";
+    // //     //         );
+    // //     $insert = $dbConn->prepare( "SELECT `comic_id`, `title`, `category_id` FROM `comics` WHERE `title` = $title");
         
-     if($title == $query){
-    //     // $insert = $dbConn->prepare( "SELECT `comic_id`, 
-    //     //         `title`,
-    //     //         `category_id` 
-    //     //         FROM `comics` WHERE `title` = $title";
-    //     //         );
-    //     $insert = $dbConn->prepare( "SELECT `comic_id`, `title`, `category_id` FROM `comics` WHERE `title` = $title");
+    //  echo "title == query";
         
-     echo "title == query";
-        
-     }else {
+   //  }else {
      //   INSERT INTO `comics` (`comic_id`, `title`, `comic_url`) VALUES (NULL, '123\r\n', '');
-      //echo "start here"."</br>". $category_id ."</br>";
+       // echo "start here"."</br>". $category_id ."</br>";
         $insert = $dbConn->prepare("INSERT INTO comics(title, comic_url) VALUES (:title , :category_id)");
         $insert->bindParam(":title", $title);
         $insert->bindParam(":category_id", $category_id);
- //       $insert->execute();
+        $insert->execute();
         
-    }
+    // }
     
 
     //  $insert = $con->prepare("INSERT INTO users2 (username, password) VALUES (:username, :password)");
@@ -210,11 +223,12 @@ function createComic($title, $text, $xpos, $ypos, $category_id) {
     
     //Step 2: Insert the comic information (along with the category ID) into the
     // comics table
-    //$result = insertComic($title, $text, $xpos, $ypos, $category); 
+    
+    insertComic($text, $xpos, $ypos); 
 
     //Step 3: Fetch the new comic joined with the comic_url information
-     $last_id = $dbConn->lastInsertId();
-     $newComic = fetchComicFromDB($last_id); 
+    $last_id = $dbConn->lastInsertId();
+    $newComic = fetchComicFromDB($last_id); 
     
     return $newComic; 
     

@@ -1,49 +1,80 @@
-<?php
-if(isset($_POST['submit'])){
-    $file = $_FILES['file'];
-    print_r($file);
-    $fileName = $_FILES['file']['name'];
-    //fileName = $file['name'] same :D //
-    $fileTmpName = $_FILES['file']['tmp_name'];
-    $fileSize = $_FILES['file']['size'];
-    $fileError = $_FILES['file']['error'];
-    $fileType  = $_FILES['file']['type'];
-        
-    $fileExt = explode('.', $fileName);
-    $fileActualExt = strtolower(end($fileExt));
-    $allowed = array('jpg', 'jpeg', 'png', 'pdf');
-    
-    if(in_array($fileActualExt, $allowed)){
-        if($fileError ===0){
-            if($fileSize < 5000){
-                $fileNameNew = uniqid('',true);// $fileActualExt;
-                $fileDestination  = 'uploads/'.$fileNameNew;
-                move_uploaded_file($fileTmpName, $fileDestination);
-                header("Location: index.php?uploadsuccess");
-            }else{
-                echo "file size should be less than 5mb";
-            }
-        }else{
-            echo "Error";
-        }
-    }else{
-        echo "Only image files are allowed";
-    }
+<!DOCTYPE html>
+<html>
+<style>
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
 }
 
-?>
-<html>
-    <head>
-        <title></title>
-        <style>
-            
-        </style>
-    </head>
-    <body>
-        <form action='gallery.php' method='POST' enctype='multipart/form-data'> 
-            <input type='file' name='image'>
-            <button type='submit' value='submit '>Upload</button>
-        </form>
-    </body>
-</html>
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
+</style>
+<body>
 
+<h1>Draggable DIV Element</h1>
+
+<p>Click and hold the mouse button down while moving the DIV element</p>
+
+<div id="mydiv">
+  <div id="mydivheader">Click here to move</div>
+  <p>Move</p>
+  <p>this</p>
+  <p>DIV</p>
+</div>
+
+<script>
+//Make the DIV element draggagle:
+dragElement(document.getElementById("mydiv"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+</script>
+
+</body>
+</html>

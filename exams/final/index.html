@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+    <link rel="stylesheet" type="text/css" href="race.css">
+</head>
+
+<body>
+    <li> <a href="logout.php">Logout</a></li>
+    <!--Search bar-->
+    <div>
+        <form>
+        Search: <input type="text">
+        </form>
+    </div>
+
+    <!--Pages-->
+    <div id="pages">
+        <table>
+            <thead>
+                <th>Create</th>
+                <th>A</th>
+                <th>New</th>
+                <th>Race</th>
+                <th>Here: </th>
+                <th>
+                    <button class="add action">
+                        <img src="img/salon-add.png" />
+                    </button>
+                </th>
+            </thead>
+            <tbody>
+                <!--Put all the pages data here-->
+            </tbody>
+        </table>
+
+    </div>
+
+    <!--Modal-->
+    <div id="modalBoxAdd" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            
+
+            Race Details
+            <div>
+                <label for="raceId">Race ID</label>
+                <input id="raceId" type="text" />
+            </div>
+            
+            <div>
+                <label for="raceDate">Race Date</label>
+                <input id="raceDate" type="date" />
+                <!--<label for="toDate">To</label>
+                <input id="toDate" type="date" />-->
+            </div>
+            <div>
+                <label for="startTime">Start Time</label>
+                <select id="startTime">
+                    <option value="">Select a time</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">19</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                </select>
+                24 hour
+            </div>
+             <div>
+                <label for="code">Password</label>
+                <input id="code" type="text" />
+            </div>
+            <div>
+                <span>Location</label>
+                <br>
+                <textarea id="loc" rows="5"></textarea>
+            </div>
+
+            <div>
+                <span class="close"><button>Cancel</button></span>
+                <button class="save">Save</button>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <!--Modal for editing-->
+    <div id="modalBoxEdit" class="modal">
+        
+        <!-- Modal content -->
+        <div class="modal-content">
+            
+
+            Edit Race Details
+            <div>
+                <label for="raceId">Race ID</label>
+                <input id="raceId" type="text" />
+            </div>
+            
+            <div>
+                <label for="raceDate">Race Date</label>
+                <input id="raceDate" type="date" />
+            </div>
+            <div>
+                <label for="startTime">Start Time</label>
+                <select>
+                    <option value="">Select a Time</option> <!-- Tried to do a post for all the values -->
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">19</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                </select>
+                24 hour
+            </div>
+             <div>
+                <label for="code">Password</label>
+                <input id="code" type="text"/>
+            </div>
+            <div>
+                <span>Location</label>
+                <br>
+                <textarea id="loc" rows="5"></textarea>
+            </div>
+
+            <div>
+                <span class="close2"><button>Cancel</button></span>
+                <button class="save">Save Edits</button>
+                <button class="delete">Delete</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="race.js"></script>
+
+</body>
+
+</html>

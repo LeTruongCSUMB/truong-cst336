@@ -17,7 +17,8 @@ checkLoggedIn();
         crossorigin="anonymous">
   </head>
   <body>
-    <?php include('navigation.php'); ?>
+    
+    <?php include 'navigation.php' ?>
     <h1>Welcome <?= $_SESSION['username'] ?>!</h1>
     
     <h2>Your comics: </h2>

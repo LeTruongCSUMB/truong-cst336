@@ -3,28 +3,35 @@
 session_start(); 
 
 include 'database.php'; 
+
 $dbConn = getDatabaseConnection(); 
 
 function validate($username, $password) {
     global $dbConn; 
     $dbConn = getDatabaseConnection(); 
     
-    $sql = "SELECT * FROM `users` WHERE username=:username AND password=SHA(:password)"; 
+    $sql = "SELECT * FROM `users2` WHERE username=:username AND password=:password";
+    
     $statement = $dbConn->prepare($sql); 
-    $statement->execute(array(':username' => $username, ':password' => $password));
+    $statement->execute(array(':username' => $username, ':password' => sha1($password)));
 
     $records = $statement->fetchAll(); 
-    
-    
+
+
     if (count($records) == 1) {
         // login successful
         $_SESSION['user_id'] = $records[0]['user_id']; 
         $_SESSION['username'] = $records[0]['username']; 
+        
+        echo $_sESSION['user_id'];
+        
         header('Location: index.php');
         
     }  else {
         echo "<div class='error'>Username and password are invalid </div>"; 
     }
+    
+    
 }
 
 ?>
@@ -113,6 +120,58 @@ function validate($username, $password) {
                 validate($_POST['username'], $_POST['password']);  
             }
         ?>
+        
+        
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <a class="navbar-brand">Comic Generator</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        
+            <li class="nav-item active">
+          <a class="nav-link" href="welcome.php">Home <span class="sr-only">(current)</span></a>
+        </li>
+        
+    <?php
+      if($_SESSION['user_id']==null){
+    ?>
+        
+        <li class="nav-item active">
+          <a class="nav-link" href="login.php">Login <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="join.php">Register</a>
+        </li>
+        <?php
+        } else{
+        ?>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="home.php">MeMe Generator </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.php">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="logout.php">Logout</a>
+        </li>
+      </ul>
+      <?php
+      
+          
+        }
+      
+      ?>
+
+    </div>
+  </nav>
+        
         <form style="max-width:500px; max-height:500px;margin:auto;" method="POST">
             <h1> Welcome to the Comic Generator!</h1>
             <div class="container">

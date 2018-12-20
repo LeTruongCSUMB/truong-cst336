@@ -1,36 +1,42 @@
-<!DOCTYPE html>
 <html>
+<head>
+<!--    <title>Page Title</title>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/interactjs@1.3.4/dist/interact.min.js"></script>-->
+<!-- or -->
+<!--<script src="jquery-3.3.1.min.js"></script>-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.8/interact.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/draggable/1.0.0-beta.8/draggable.bundle.min.js"></script>`
+
+</head>
 <style>
 #mydiv {
-    position: absolute;
-    z-index: 9;
-    text-align: center;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    border: #ffffff;
-    font-size:30px; 
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
 }
-/*10256987-35c441377852b76cd3f4b7bf5*/
 
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
 </style>
 <body>
     
-<script>
     
-    var API_KEY = '10256987-35c441377852b76cd3f4b7bf5';
-    var URL = "https://pixabay.com/api/?key="+API_KEY+"&q="+encodeURIComponent('funny');
-    $.getJSON(URL, function(data){
-    if (parseInt(data.totalHits) > 0)
-        $.each(data.hits, function(i, hit){ console.log(hit.pageURL); });
-    else
-        console.log('No hits');
-    });
-
-</script>
-
+</body>
 
 <div id="mydiv">
-    drawable
+  <div id="mydivheader">Click here to move</div>
+  <p>Move</p>
+  <p>this</p>
   <p>DIV</p>
 </div>
 
@@ -71,20 +77,15 @@ function dragElement(elmnt) {
     elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
     elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
   }
-  
+
   function closeDragElement() {
     /* stop moving when mouse button is released:*/
     document.onmouseup = null;
     document.onmousemove = null;
   }
 }
-
-
 </script>
 
-
-
-
-
+ 
 </body>
 </html>
