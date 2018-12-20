@@ -30,10 +30,7 @@
         
         // Build the select statement (assuming the posted data has a field called dataFromPost)
         $whereSql = "
-        SELECT f.*, status.startTime AS 'startTime'
-        FROM page f INNER JOIN
-            status s ON f.startTime = s.startTime LEFT OUTER JOIN
-        WHERE startTime <> 0
+        SELECT `raceId`, `raceDate`, `startTime`, `loc` FROM `page`
         ";
         
         // The prepare caches the SQL statement for N number of parameters imploded above

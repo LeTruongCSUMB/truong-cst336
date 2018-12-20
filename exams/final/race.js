@@ -85,7 +85,7 @@ $(function() {
 
                 },
             error: function(err) {
-                console.log("Didn't get data", err);
+                console.log("Didn't get data in page load", err);
             }
         });
 
